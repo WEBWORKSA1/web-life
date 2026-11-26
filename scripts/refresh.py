@@ -51,6 +51,7 @@ def fetch(url, timeout=25):
 
 def clean(text):
     text = html.unescape(re.sub(r"<[^>]+>", "", text or "")).strip()
+    text = re.sub(r"\s+via\s+@\S.*$", "", text)  # drop "via @publisher" tails
     return re.sub(r"\s+", " ", text)[:180]
 
 
