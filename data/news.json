@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-26T09:38:52.553727+00:00",
+ "updated": "2026-11-26T21:40:48.053270+00:00",
  "items": [
+  {
+   "title": "The Missing Step In Prompt Tracking Was Written Down In 1995",
+   "link": "https://www.searchenginejournal.com/the-missing-step-in-prompt-tracking-was-written-down-in-1995/598461/",
+   "date": "2026-11-26T15:00:36+00:00",
+   "source": "Search Engine Journal",
+   "stage": "grow"
+  },
+  {
+   "title": "What SEOs Can Be Thankful For: 8 Wins To Celebrate In 2026",
+   "link": "https://www.searchenginejournal.com/what-seos-can-be-thankful-for-2026/598921/",
+   "date": "2026-11-26T13:00:22+00:00",
+   "source": "Search Engine Journal",
+   "stage": "grow"
+  },
   {
    "title": "OpenAI Isn’t Planning Prompt-Level Reports For ChatGPT Ads",
    "link": "https://www.searchenginejournal.com/openai-isnt-planning-prompt-level-reports-for-chatgpt-ads/599126/",
@@ -51,25 +65,11 @@
    "stage": "launch"
   },
   {
-   "title": "ChatGPT Ads Are Growing Fast – But Are Advertisers Seeing Results?",
-   "link": "https://www.searchenginejournal.com/chatgpt-ads-are-growing-fast-but-are-advertisers-seeing-results/598052/",
-   "date": "2026-11-25T15:00:31+00:00",
-   "source": "Search Engine Journal",
-   "stage": "grow"
-  },
-  {
    "title": "Style Queries as Conditional Modifiers",
    "link": "https://css-tricks.com/css-style-queries-as-conditional-modifiers/",
    "date": "2026-11-25T14:06:34+00:00",
    "source": "CSS-Tricks",
    "stage": "launch"
-  },
-  {
-   "title": "Is GEO Visibility Delivering Business Value, Or Are We Measuring The Wrong Outcome?",
-   "link": "https://www.searchenginejournal.com/is-geo-visibility-delivering-business-value-or-are-we-measuring-the-wrong-outcome/594064/",
-   "date": "2026-11-25T13:00:23+00:00",
-   "source": "Search Engine Journal",
-   "stage": "grow"
   },
   {
    "title": "How to Set Up and Customize Light and Dark Mode in shadcn with Next.js",
