@@ -1,0 +1,23 @@
+{
+ "updated": "2026-11-26T09:02:55.151972+00:00",
+ "news_items": 0,
+ "breach_items": 0,
+ "sources_ok": [],
+ "sources_failed": [
+  "Google Search Central: URLError",
+  "Google Search Central: URLError",
+  "Search Engine Land: URLError",
+  "Search Engine Journal: URLError",
+  "Chrome for Developers: URLError",
+  "web.dev: URLError",
+  "Smashing Magazine: URLError",
+  "CSS-Tricks: URLError",
+  "freeCodeCamp: URLError",
+  "MDN Blog: URLError",
+  "WordPress News: URLError",
+  "Krebs on Security: URLError",
+  "Troy Hunt: URLError",
+  "Google AdSense Blog: URLError",
+  "HIBP: URLError"
+ ]
+}

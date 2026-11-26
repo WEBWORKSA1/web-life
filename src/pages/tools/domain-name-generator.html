@@ -1,0 +1,72 @@
+<!--{"title": "Domain name generator with brandability scores", "description": "Generate brandable domain name ideas from your keywords, scored for length, spelling and pronounceability, with one-click registry lookups.", "nav": "launch", "scripts": ["tools"], "parent": ["Tools", "tools.html"], "schema": [{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Domain name generator", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any (runs in a web browser)", "url": "https://web.life/tools/domain-name-generator.html", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}]}-->
+<section class="page-hero" data-stage="launch">
+  <div class="wrap">
+    <p class="crumbs"><a href="../index.html">Home</a> / <a href="../tools.html">Tools</a> / Domain name generator</p>
+    <a class="stage-tag" href="../launch.html">Launch tool</a>
+    <h1 style="margin-top:.6rem;max-width:22ch">Domain name generator</h1>
+    <p class="lede">Type a few words that describe your site. Get blended, prefixed and suffixed name ideas, each scored for how easy it is to say, spell and remember.</p>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap" data-stage="launch">
+    <div class="tool" data-tool="domain">
+      <div class="tool-body">
+        <div class="tool-in form">
+          <div class="field"><label for="d-words">Keywords</label><input id="d-words" type="text" value="garden, studio" autocomplete="off"><span class="hint">One to three words, separated by commas.</span></div>
+          <fieldset class="chips"><legend class="legend">Extensions</legend>
+            <label class="chip"><input type="checkbox" name="tld" value=".com" checked><span>.com</span></label>
+            <label class="chip"><input type="checkbox" name="tld" value=".co"><span>.co</span></label>
+            <label class="chip"><input type="checkbox" name="tld" value=".io"><span>.io</span></label>
+            <label class="chip"><input type="checkbox" name="tld" value=".net"><span>.net</span></label>
+            <label class="chip"><input type="checkbox" name="tld" value=".org"><span>.org</span></label>
+            <label class="chip"><input type="checkbox" name="tld" value=".app"><span>.app</span></label>
+            <label class="chip"><input type="checkbox" name="tld" value=".life"><span>.life</span></label>
+            <label class="chip"><input type="checkbox" name="tld" value=".dev"><span>.dev</span></label>
+          </fieldset>
+          <div class="field"><label for="d-max">Maximum length (without extension)</label><input id="d-max" type="number" min="4" max="30" value="15"></div>
+          <button class="btn btn-solid" type="button" id="d-go">Generate names</button>
+          <p class="small muted">A "Look up" link opens ICANN's registration data lookup. If no record is found, the name may be available; confirm at a registrar.</p>
+        </div>
+        <div class="tool-out" aria-live="polite">
+          <p class="result-label" id="d-count">Ideas</p>
+          <ul class="list-out" id="d-out" style="max-height:560px;overflow:auto"></ul>
+        </div>
+      </div>
+    </div>
+    <p class="small muted" style="margin-top:.75rem">Runs entirely in your browser. Nothing you enter is sent to Web.Life.</p>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap article-layout" data-stage="launch" style="padding-top:0">
+    <div class="prose">
+<h2>How the score works</h2>
+<p>Each idea starts at 100 points and loses points for things that make a name harder to share: more than eight characters, hyphens, numbers, awkward clusters of consonants, tripled letters and an unusual balance of vowels. A <code>.com</code> earns a small bonus because people type it by default. The score is a quick filter, not a verdict. A slightly longer name that is instantly clear can beat a short one nobody can spell.</p>
+<h2>The radio test</h2>
+<p>Say each shortlisted name out loud to someone who hasn't seen it, then ask them to type it. If they hesitate over spelling, hyphens or "is that the number 4?", move on. Names that pass the radio test travel further through word of mouth.</p>
+<h2>Before you buy</h2>
+<ol>
+<li>Search the exact name and close variations to see who already uses it.</li>
+<li>Check your national trademark database and the <a href="https://www.wipo.int/branddb/en/" target="_blank" rel="noopener">WIPO Global Brand Database</a> for conflicts in your field.</li>
+<li>Check that matching social handles are available, or close enough.</li>
+<li>Look at renewal pricing, not just the first-year price.</li>
+<li>Register in an account protected by two-factor authentication and switch on auto-renew.</li>
+</ol>
+<p>For the full decision process, read <a href="../guides/choose-a-domain-name.html">how to choose a domain name that lasts</a>.</p>
+    </div>
+    <aside class="aside">
+      <div class="mini-cta" data-stage="launch">
+        <h2>Found a name? Build on it.</h2>
+        <p>Turn your new domain into a live site with a fixed scope and launch date.</p>
+        <a class="btn btn-stage btn-sm" href="../services.html?service=Build%20a%20new%20website">Start a project brief</a>
+      </div>
+      <div class="toc"><h2>Related guides</h2><ol><li><a href="../guides/choose-a-domain-name.html">How to choose a domain name that lasts</a></li><li><a href="../guides/30-day-website-launch-plan.html">The 30-day website launch plan</a></li><li><a href="../guides/website-security-baseline.html">The website security baseline</a></li></ol></div>
+    </aside>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap">
+    <div class="section-head"><h2>More launch tools</h2><p><a class="text-link" href="../tools.html">All 14 tools</a></p></div>
+    {{tool_tiles:launch}}
+  </div>
+</section>

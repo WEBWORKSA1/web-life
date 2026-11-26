@@ -1,0 +1,74 @@
+<!--{"title": "UTM link builder for campaign tracking", "description": "Build UTM-tagged campaign links for analytics: source, medium, campaign, term and content, with validation and one-click copy.", "nav": "earn", "scripts": ["tools"], "parent": ["Tools", "tools.html"], "schema": [{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "UTM link builder", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any (runs in a web browser)", "url": "https://web.life/tools/utm-builder.html", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}]}-->
+<section class="page-hero" data-stage="earn">
+  <div class="wrap">
+    <p class="crumbs"><a href="../index.html">Home</a> / <a href="../tools.html">Tools</a> / UTM link builder</p>
+    <a class="stage-tag" href="../earn.html">Earn tool</a>
+    <h1 style="margin-top:.6rem;max-width:22ch">UTM link builder</h1>
+    <p class="lede">Tag the links you share so your analytics shows which newsletter, post or partner actually sent visitors and sales.</p>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap" data-stage="earn">
+    <div class="tool" data-tool="utm">
+      <div class="tool-body">
+        <div class="tool-in form">
+          <div class="field"><label for="u-url">Page address</label><input id="u-url" type="url" value="https://example.com/offer"></div>
+          <div class="field-row">
+            <div class="field"><label for="u-source">Source</label><input id="u-source" type="text" value="newsletter"><span class="hint">Where the click comes from: newsletter, facebook, partner-name</span></div>
+            <div class="field"><label for="u-medium">Medium</label><input id="u-medium" type="text" value="email"><span class="hint">The channel type: email, social, cpc, referral</span></div>
+          </div>
+          <div class="field"><label for="u-campaign">Campaign</label><input id="u-campaign" type="text" value="spring_launch"></div>
+          <div class="field-row">
+            <div class="field"><label for="u-term">Term (optional)</label><input id="u-term" type="text"></div>
+            <div class="field"><label for="u-content">Content (optional)</label><input id="u-content" type="text" placeholder="header_button"></div>
+          </div>
+          <label class="check"><input type="checkbox" id="u-lower" checked> <span>Convert to lowercase (recommended: analytics treats "Email" and "email" as different)</span></label>
+        </div>
+        <div class="tool-out" aria-live="polite">
+          <p class="result-label">Your tagged link</p>
+          <pre class="code-out" id="u-out"></pre>
+          <div class="inline-actions"><button class="btn btn-solid btn-sm" type="button" id="u-copy">Copy link</button></div>
+          <p class="small" id="u-note" style="margin-top:1rem"></p>
+        </div>
+      </div>
+    </div>
+    <p class="small muted" style="margin-top:.75rem">Runs entirely in your browser. Nothing you enter is sent to Web.Life.</p>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap article-layout" data-stage="earn" style="padding-top:0">
+    <div class="prose">
+<h2>The five UTM parameters</h2>
+<div class="table-wrap"><table><thead><tr><th>Parameter</th><th>Answers</th><th>Examples</th></tr></thead><tbody>
+<tr><td><code>utm_source</code></td><td>Who sent the visit?</td><td>newsletter, linkedin, partner-site</td></tr>
+<tr><td><code>utm_medium</code></td><td>What kind of channel?</td><td>email, social, cpc, referral, affiliate</td></tr>
+<tr><td><code>utm_campaign</code></td><td>Which promotion?</td><td>spring_launch, black_friday</td></tr>
+<tr><td><code>utm_term</code></td><td>Which paid keyword?</td><td>website_builder</td></tr>
+<tr><td><code>utm_content</code></td><td>Which link or creative?</td><td>header_button, footer_link</td></tr>
+</tbody></table></div>
+<h2>Naming rules that keep reports clean</h2>
+<ul>
+<li>Agree a short list of mediums and stick to it. Analytics tools group channels using the medium value, so inventing new ones scatters your data.</li>
+<li>Use lowercase and underscores, never spaces.</li>
+<li>Keep a shared spreadsheet of every tagged link you create.</li>
+<li>Don't tag internal links between your own pages. It overwrites the original source of the visit.</li>
+</ul>
+<p>Tracking only matters if it changes decisions. Pair this with the <a href="website-revenue-estimator.html">revenue estimator</a> to see which channel deserves more of your time.</p>
+    </div>
+    <aside class="aside">
+      <div class="mini-cta" data-stage="earn">
+        <h2>Need analytics set up properly?</h2>
+        <p>We can configure tracking, goals and a simple monthly dashboard.</p>
+        <a class="btn btn-stage btn-sm" href="../services.html?service=Monetisation%20setup">Ask about analytics</a>
+      </div>
+      <div class="toc"><h2>Related guides</h2><ol><li><a href="../guides/website-monetization-models.html">Nine ways websites make money</a></li><li><a href="../guides/seo-fundamentals.html">SEO fundamentals for new websites</a></li><li><a href="../guides/ad-network-readiness.html">Getting ad-network ready</a></li></ol></div>
+    </aside>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap">
+    <div class="section-head"><h2>More earn tools</h2><p><a class="text-link" href="../tools.html">All 14 tools</a></p></div>
+    {{tool_tiles:earn}}
+  </div>
+</section>

@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page-weight budget calculator: how fast will your page load? | Web.Life</title>
+<meta name="description" content="Estimate how long your page&#x27;s HTML, CSS, JavaScript, images and fonts take to download on 3G, 4G and broadband, against a 2.5-second budget.">
+<link rel="canonical" href="https://web.life/tools/page-weight-budget.html">
+
+<meta name="google-adsense-account" content="ca-pub-6620975821265271">
+<meta name="theme-color" content="#14261F">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Web.Life">
+<meta property="og:title" content="Page-weight budget calculator: how fast will your page load?">
+<meta property="og:description" content="Estimate how long your page&#x27;s HTML, CSS, JavaScript, images and fonts take to download on 3G, 4G and broadband, against a 2.5-second budget.">
+<meta property="og:url" content="https://web.life/tools/page-weight-budget.html">
+<meta property="og:image" content="https://web.life/assets/img/og-card.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../assets/img/icon-192.png">
+<link rel="manifest" href="../site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&display=swap">
+<link rel="stylesheet" href="../assets/css/site.css">
+<script>(function(){try{var t=localStorage.getItem("wl-theme");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t)}catch(e){}})();</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6620975821265271" crossorigin="anonymous"></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Web.Life", "url": "https://web.life/", "description": "The life-cycle hub for websites: launch, grow, earn, protect and pass them on."}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Web.Life", "url": "https://web.life/", "logo": "https://web.life/assets/img/icon-512.png"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://web.life/"}, {"@type": "ListItem", "position": 2, "name": "Tools", "item": "https://web.life/tools.html"}, {"@type": "ListItem", "position": 3, "name": "Page-weight budget calculator: how fast will your page load?", "item": "https://web.life/tools/page-weight-budget.html"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Page-weight budget", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any (runs in a web browser)", "url": "https://web.life/tools/page-weight-budget.html", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="notice"><a href="https://web.works/contact" target="_blank" rel="noopener">contact, if you are interested in this website/domain name/Sponsorship/Advertisement/Partnership</a></div>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="../index.html" aria-label="Web.Life home"><svg viewBox="0 0 34 22" aria-hidden="true"><path d="M2 15 L9 15 L12 6 L17 18 L21 9 L24 15 L32 15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="2.5" cy="15" r="2.3" fill="#2F6BFF"/><circle cx="12" cy="6" r="2.3" fill="#1E9E6A"/><circle cx="17" cy="18" r="2.3" fill="#D99A0B"/><circle cx="21" cy="9" r="2.3" fill="#7B4DD8"/><circle cx="31.5" cy="15" r="2.3" fill="#B8325E"/></svg><span>Web<span class="dot">.</span>Life</span></a>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a data-stage="launch" href="../launch.html">Launch</a>
+      <a data-stage="grow" href="../grow.html" aria-current="page">Grow</a>
+      <a data-stage="earn" href="../earn.html">Earn</a>
+      <a data-stage="protect" href="../protect.html">Protect</a>
+      <a data-stage="legacy" href="../legacy.html">Legacy</a>
+      <span class="sep" aria-hidden="true"></span>
+      <a href="../tools.html">Tools</a>
+      <a href="../guides.html">Guides</a>
+      <a href="../videos.html">Videos</a>
+      <a href="../pulse.html">Pulse</a>
+      <a class="btn btn-solid btn-sm" href="../services.html">Get expert help</a>
+    </nav>
+    <div class="header-tools">
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch colour theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg></button>
+      <button class="icon-btn menu-btn" type="button" data-menu-btn aria-controls="site-nav" aria-expanded="false" aria-label="Open menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</header>
+<main id="main">
+<section class="page-hero" data-stage="grow">
+  <div class="wrap">
+    <p class="crumbs"><a href="../index.html">Home</a> / <a href="../tools.html">Tools</a> / Page-weight budget</p>
+    <a class="stage-tag" href="../grow.html">Grow tool</a>
+    <h1 style="margin-top:.6rem;max-width:22ch">Page-weight budget</h1>
+    <p class="lede">Enter the size of each part of your page to see a rough download time on different connections, and which asset type to trim first.</p>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap" data-stage="grow">
+    <div class="tool" data-tool="weight">
+      <div class="tool-body">
+        <div class="tool-in form">
+          <div class="field"><label for="w-net">Connection</label><select id="w-net"><option value="slow3g">Slow 3G (0.4 Mbps)</option><option value="fast3g" selected>Fast 3G (1.6 Mbps), similar to mobile lab tests</option><option value="4g">4G (9 Mbps)</option><option value="broadband">Broadband (50 Mbps)</option></select></div>
+          <div class="field-row">
+            <div class="field"><label for="w-html">HTML (KB)</label><input id="w-html" type="number" min="0" value="40"></div>
+            <div class="field"><label for="w-css">CSS (KB)</label><input id="w-css" type="number" min="0" value="60"></div>
+          </div>
+          <div class="field-row">
+            <div class="field"><label for="w-js">JavaScript (KB)</label><input id="w-js" type="number" min="0" value="350"></div>
+            <div class="field"><label for="w-img">Images (KB)</label><input id="w-img" type="number" min="0" value="900"></div>
+          </div>
+          <div class="field-row">
+            <div class="field"><label for="w-font">Fonts (KB)</label><input id="w-font" type="number" min="0" value="120"></div>
+            <div class="field"><label for="w-other">Video and other (KB)</label><input id="w-other" type="number" min="0" value="0"></div>
+          </div>
+          <div class="field"><label for="w-req">Number of requests</label><input id="w-req" type="number" min="1" value="45"><span class="hint">Find all of these in your browser's developer tools, Network tab, after a hard reload.</span></div>
+        </div>
+        <div class="tool-out" aria-live="polite">
+          <p class="result-label">Estimated download time</p>
+          <p class="result-big" id="w-total">0 s</p>
+          <p style="font-weight:700" id="w-kb"></p>
+          <div class="meter"><i id="w-meter"></i></div>
+          <p id="w-verdict"></p>
+          <div id="w-bars"></div>
+        </div>
+      </div>
+    </div>
+    <p class="small muted" style="margin-top:.75rem">Runs entirely in your browser. Nothing you enter is sent to Web.Life.</p>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap article-layout" data-stage="grow" style="padding-top:0">
+    <div class="prose">
+<h2>What this estimate is, and isn't</h2>
+<p>The calculator adds the time to transfer your page's bytes at the chosen speed, a latency cost for the round trips needed to fetch your requests, and a small allowance for processing JavaScript. Real loading is more complex: browsers download in parallel, cache files between visits and can show content before everything arrives. Use the number to compare options and set a budget, then confirm with a real test in <a href="https://pagespeed.web.dev/" target="_blank" rel="noopener">PageSpeed Insights</a>.</p>
+<h2>Why 2.5 seconds</h2>
+<p>Google's Core Web Vitals treat a Largest Contentful Paint of 2.5 seconds or less as good. If simply downloading your page takes longer than that on a typical mobile connection, the main content can't appear in time.</p>
+<h2>Trim in this order</h2>
+<ol>
+<li><strong>Images.</strong> Serve modern formats (WebP or AVIF), size them to the space they fill, and lazy-load anything below the fold.</li>
+<li><strong>JavaScript.</strong> Remove scripts you don't use, defer the rest, and question every third-party widget.</li>
+<li><strong>Fonts.</strong> Use one or two families, subset them, and preload the one your headline needs.</li>
+<li><strong>Requests.</strong> Combine small files and drop decorative extras.</li>
+</ol>
+<p>For the full picture, read <a href="../guides/core-web-vitals.html">Core Web Vitals in plain English</a>.</p>
+    </div>
+    <aside class="aside">
+      <div class="mini-cta" data-stage="grow">
+        <h2>Site still slow?</h2>
+        <p>Get a speed fix-up: we find the heavy parts and remove them.</p>
+        <a class="btn btn-stage btn-sm" href="../services.html?service=Fix%20and%20speed%20up">Fix my site speed</a>
+      </div>
+      <div class="toc"><h2>Related guides</h2><ol><li><a href="../guides/core-web-vitals.html">Core Web Vitals in plain English</a></li><li><a href="../guides/seo-fundamentals.html">SEO fundamentals for new websites</a></li><li><a href="../guides/builder-vs-cms-vs-static.html">Website builder, CMS or static site?</a></li></ol></div>
+    </aside>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap">
+    <div class="section-head"><h2>More grow tools</h2><p><a class="text-link" href="../tools.html">All 14 tools</a></p></div>
+    <div class="tile-grid"><a class="tile" data-stage="grow" data-tags="grow" href="../tools/seo-meta-checker.html"><h3>SEO meta checker</h3><p>Preview your search snippet and audit a page's on-page basics.</p><span class="meta">Grow tool</span></a><a class="tile" data-stage="grow" data-tags="grow" href="../tools/page-weight-budget.html"><h3>Page-weight budget</h3><p>See how many seconds your images, scripts and fonts cost visitors.</p><span class="meta">Grow tool</span></a><a class="tile" data-stage="grow" data-tags="grow" href="../tools/schema-generator.html"><h3>Schema generator</h3><p>Build JSON-LD for organisations, local businesses, articles and FAQs.</p><span class="meta">Grow tool</span></a><a class="tile" data-stage="grow" data-tags="grow" href="../tools/robots-sitemap-builder.html"><h3>Robots.txt & sitemap builder</h3><p>Generate crawl rules and an XML sitemap from a list of URLs.</p><span class="meta">Grow tool</span></a></div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-news">
+        <a class="brand" href="../index.html" aria-label="Web.Life home"><svg viewBox="0 0 34 22" aria-hidden="true"><path d="M2 15 L9 15 L12 6 L17 18 L21 9 L24 15 L32 15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="2.5" cy="15" r="2.3" fill="#2F6BFF"/><circle cx="12" cy="6" r="2.3" fill="#1E9E6A"/><circle cx="17" cy="18" r="2.3" fill="#D99A0B"/><circle cx="21" cy="9" r="2.3" fill="#7B4DD8"/><circle cx="31.5" cy="15" r="2.3" fill="#B8325E"/></svg><span>Web.Life</span></a>
+        <p>One practical email a week: a tool, a fix and a number worth knowing for every stage of your website's life.</p>
+        <form class="nl" data-form="newsletter" data-subject="Newsletter signup" data-success="You're in. The next issue lands in your inbox this week.">
+          <label class="visually-hidden" for="nl-email">Email address</label>
+          <input id="nl-email" name="email" type="email" placeholder="you@example.com" required autocomplete="email" data-label="Email">
+          <div class="hp" aria-hidden="true"><label>Leave empty<input name="_honey" tabindex="-1" autocomplete="off"></label></div>
+          <button class="btn btn-sm" type="submit">Subscribe</button>
+          <div data-status aria-live="polite"></div>
+        </form>
+      </div>
+      <div><h2>Stages</h2><ul><li><a class="foot-stage" data-stage="launch" href="../launch.html">Launch</a></li><li><a class="foot-stage" data-stage="grow" href="../grow.html">Grow</a></li><li><a class="foot-stage" data-stage="earn" href="../earn.html">Earn</a></li><li><a class="foot-stage" data-stage="protect" href="../protect.html">Protect</a></li><li><a class="foot-stage" data-stage="legacy" href="../legacy.html">Legacy</a></li></ul></div>
+      <div><h2>Resources</h2><ul>
+        <li><a href="../tools.html">Free tools</a></li>
+        <li><a href="../guides.html">Guides</a></li>
+        <li><a href="../videos.html">Videos</a></li>
+        <li><a href="../pulse.html">Web Pulse</a></li>
+        <li><a href="../glossary.html">Glossary</a></li></ul></div>
+      <div><h2>Get involved</h2><ul>
+        <li><a href="../services.html">Get expert help</a></li>
+        <li><a href="../support.html">Support Web.Life</a></li>
+        <li><a href="../contests.html">Contests &amp; prizes</a></li>
+        <li><a href="../careers.html">Careers &amp; talent</a></li>
+        <li><a href="../advertise.html">Advertise &amp; sponsor</a></li></ul></div>
+      <div><h2>Company</h2><ul>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="../privacy.html">Privacy policy</a></li>
+        <li><a href="../terms.html">Terms of use</a></li>
+        <li><a href="../disclaimer.html">Disclaimer &amp; trademarks</a></li></ul></div>
+    </div>
+    <div class="foot-bottom">
+      <p>Web.Life is an independent publication. It is not affiliated with, endorsed by or connected to any company, product or trademark called "WebLife", "Web Life" or similar. Third-party names belong to their owners and are used only to identify them. <a href="../disclaimer.html">Read the full disclosure</a>.</p>
+      <p>&copy; <span data-year>2026</span> Web.Life. All rights reserved. Free tools run in your browser; nothing you type into them is sent to us.</p>
+    </div>
+  </div>
+</footer>
+<script src="../assets/js/site.js" defer></script>
+<script src="../assets/js/tools.js" defer></script>
+</body>
+</html>

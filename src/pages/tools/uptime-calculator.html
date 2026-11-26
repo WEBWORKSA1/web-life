@@ -1,0 +1,56 @@
+<!--{"title": "Uptime and SLA calculator: what 99.9% really means", "description": "Convert an uptime percentage or SLA into allowed downtime per day, week, month, quarter and year, or turn minutes of downtime into a percentage.", "nav": "protect", "scripts": ["tools"], "parent": ["Tools", "tools.html"], "schema": [{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Uptime calculator", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any (runs in a web browser)", "url": "https://web.life/tools/uptime-calculator.html", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}]}-->
+<section class="page-hero" data-stage="protect">
+  <div class="wrap">
+    <p class="crumbs"><a href="../index.html">Home</a> / <a href="../tools.html">Tools</a> / Uptime calculator</p>
+    <a class="stage-tag" href="../protect.html">Protect tool</a>
+    <h1 style="margin-top:.6rem;max-width:22ch">Uptime calculator</h1>
+    <p class="lede">Hosting plans promise 99.9% or 99.99% uptime. See what those decimals mean in real minutes of downtime.</p>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap" data-stage="protect">
+    <div class="tool" data-tool="uptime">
+      <div class="tool-body">
+        <div class="tool-in form">
+          <div class="field"><label for="t-pct">Uptime percentage</label><input id="t-pct" type="number" min="0" max="100" step="0.001" value="99.9"></div>
+          <div class="table-wrap"><table><thead><tr><th>Common promise</th><th>Downtime per month</th></tr></thead><tbody>
+            <tr><td>99%</td><td>about 7.3 hours</td></tr><tr><td>99.5%</td><td>about 3.7 hours</td></tr><tr><td>99.9%</td><td>about 44 minutes</td></tr><tr><td>99.95%</td><td>about 22 minutes</td></tr><tr><td>99.99%</td><td>about 4.4 minutes</td></tr></tbody></table></div>
+          <div class="field" style="margin-top:.5rem"><label for="t-mins">Or: minutes of downtime last month</label><input id="t-mins" type="number" min="0" step="1" value="44"><span class="hint" id="t-rev" style="font-weight:700;color:var(--ink)"></span></div>
+        </div>
+        <div class="tool-out" aria-live="polite">
+          <p class="result-label">Allowed downtime per month</p>
+          <p class="result-big" id="t-big">0</p>
+          <div class="kv" id="t-out"></div>
+        </div>
+      </div>
+    </div>
+    <p class="small muted" style="margin-top:.75rem">Runs entirely in your browser. Nothing you enter is sent to Web.Life.</p>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap article-layout" data-stage="protect" style="padding-top:0">
+    <div class="prose">
+<h2>Reading an uptime promise</h2>
+<p>An uptime guarantee, or service level agreement (SLA), is usually measured per month. At 99.9% a host can be down for about 44 minutes a month and still keep its promise. Check three things in the small print: how downtime is measured (by the host or by you), what's excluded (scheduled maintenance often is), and what you get if they miss it (usually a partial credit, not compensation for lost sales).</p>
+<h2>Measure it yourself</h2>
+<p>An external uptime monitor checks your site every few minutes from outside your host and alerts you when it fails. Free plans are widely available. Point it at a page that exercises your database, not just a static file, so you catch the failures your visitors would actually see. Send alerts somewhere you'll notice at 3 a.m., like a phone notification, not a shared inbox.</p>
+<h2>Downtime is a business number</h2>
+<p>Multiply your average revenue per hour by the hours of downtime the SLA allows. If the result is more than the price difference to a better plan, the better plan pays for itself. For recovery planning, read <a href="../guides/backups-uptime-incident-response.html">backups, uptime and incident response</a>.</p>
+    </div>
+    <aside class="aside">
+      <div class="mini-cta" data-stage="protect">
+        <h2>Site going down too often?</h2>
+        <p>We can diagnose hosting problems and set up monitoring and backups.</p>
+        <a class="btn btn-stage btn-sm" href="../services.html?service=Security%20hardening%20or%20recovery">Get reliability help</a>
+      </div>
+      <div class="toc"><h2>Related guides</h2><ol><li><a href="../guides/backups-uptime-incident-response.html">Backups, uptime and incident response</a></li><li><a href="../guides/website-security-baseline.html">The website security baseline</a></li><li><a href="../guides/core-web-vitals.html">Core Web Vitals in plain English</a></li></ol></div>
+    </aside>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap">
+    <div class="section-head"><h2>More protect tools</h2><p><a class="text-link" href="../tools.html">All 14 tools</a></p></div>
+    {{tool_tiles:protect}}
+  </div>
+</section>

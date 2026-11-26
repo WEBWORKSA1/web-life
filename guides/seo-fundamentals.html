@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SEO fundamentals for new websites | Web.Life</title>
+<meta name="description" content="How search engines crawl, index and rank pages, and the first SEO tasks for a new website: Search Console, titles, content, internal links and technical basics.">
+<link rel="canonical" href="https://web.life/guides/seo-fundamentals.html">
+
+<meta name="google-adsense-account" content="ca-pub-6620975821265271">
+<meta name="theme-color" content="#14261F">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Web.Life">
+<meta property="og:title" content="SEO fundamentals for new websites">
+<meta property="og:description" content="How search engines crawl, index and rank pages, and the first SEO tasks for a new website: Search Console, titles, content, internal links and technical basics.">
+<meta property="og:url" content="https://web.life/guides/seo-fundamentals.html">
+<meta property="og:image" content="https://web.life/assets/img/og-card.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../assets/img/icon-192.png">
+<link rel="manifest" href="../site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&display=swap">
+<link rel="stylesheet" href="../assets/css/site.css">
+<script>(function(){try{var t=localStorage.getItem("wl-theme");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t)}catch(e){}})();</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6620975821265271" crossorigin="anonymous"></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Web.Life", "url": "https://web.life/", "description": "The life-cycle hub for websites: launch, grow, earn, protect and pass them on."}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Web.Life", "url": "https://web.life/", "logo": "https://web.life/assets/img/icon-512.png"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://web.life/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://web.life/guides.html"}, {"@type": "ListItem", "position": 3, "name": "SEO fundamentals for new websites", "item": "https://web.life/guides/seo-fundamentals.html"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "SEO fundamentals for new websites", "description": "How search engines crawl, index and rank pages, and the first SEO tasks for a new website: Search Console, titles, content, internal links and technical basics.", "datePublished": "2026-11-26", "dateModified": "2026-11-26", "author": {"@type": "Organization", "name": "Web.Life Editorial"}, "publisher": {"@type": "Organization", "name": "Web.Life", "logo": {"@type": "ImageObject", "url": "https://web.life/assets/img/icon-512.png"}}, "mainEntityOfPage": "https://web.life/guides/seo-fundamentals.html", "image": "https://web.life/assets/img/og-card.png", "wordCount": 655}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="notice"><a href="https://web.works/contact" target="_blank" rel="noopener">contact, if you are interested in this website/domain name/Sponsorship/Advertisement/Partnership</a></div>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="../index.html" aria-label="Web.Life home"><svg viewBox="0 0 34 22" aria-hidden="true"><path d="M2 15 L9 15 L12 6 L17 18 L21 9 L24 15 L32 15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="2.5" cy="15" r="2.3" fill="#2F6BFF"/><circle cx="12" cy="6" r="2.3" fill="#1E9E6A"/><circle cx="17" cy="18" r="2.3" fill="#D99A0B"/><circle cx="21" cy="9" r="2.3" fill="#7B4DD8"/><circle cx="31.5" cy="15" r="2.3" fill="#B8325E"/></svg><span>Web<span class="dot">.</span>Life</span></a>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a data-stage="launch" href="../launch.html">Launch</a>
+      <a data-stage="grow" href="../grow.html" aria-current="page">Grow</a>
+      <a data-stage="earn" href="../earn.html">Earn</a>
+      <a data-stage="protect" href="../protect.html">Protect</a>
+      <a data-stage="legacy" href="../legacy.html">Legacy</a>
+      <span class="sep" aria-hidden="true"></span>
+      <a href="../tools.html">Tools</a>
+      <a href="../guides.html">Guides</a>
+      <a href="../videos.html">Videos</a>
+      <a href="../pulse.html">Pulse</a>
+      <a class="btn btn-solid btn-sm" href="../services.html">Get expert help</a>
+    </nav>
+    <div class="header-tools">
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch colour theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg></button>
+      <button class="icon-btn menu-btn" type="button" data-menu-btn aria-controls="site-nav" aria-expanded="false" aria-label="Open menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</header>
+<main id="main">
+<section class="page-hero" data-stage="grow">
+  <div class="wrap">
+    <p class="crumbs"><a href="../index.html">Home</a> / <a href="../guides.html">Guides</a> / SEO fundamentals for new websites</p>
+    <a class="stage-tag" href="../grow.html">Grow guide</a>
+    <h1 style="margin-top:.6rem;max-width:24ch">SEO fundamentals for new websites</h1>
+    <p class="lede">Search engine optimisation isn't a trick. It's making sure search engines can find your pages, understand them, and trust that they answer the question better than the alternatives.</p>
+    <p class="byline"><span>By Web.Life Editorial</span><span>Updated <time datetime="2026-11-26">26 November 2026</time></span><span>4 min read</span></p>
+  </div>
+</section>
+<div class="wrap article-layout" data-stage="grow">
+  <article class="prose">
+<h2 id="how-search-works-in-three-steps">How search works in three steps</h2>
+<p>Search engines do three things. They <strong>crawl</strong>: automated programs follow links and sitemaps to discover pages. They <strong>index</strong>: they read each page, work out what it's about and store it. And they <strong>rank</strong>: when someone searches, they choose the pages most likely to satisfy that particular person, weighing relevance, quality, usability and many other signals. A page can't rank if it hasn't been crawled and indexed, so the fundamentals start there.</p>
+<h2 id="step-1-make-sure-you-can-be-found">Step 1: make sure you can be found</h2>
+<ul>
+<li><strong>Verify your site in Google Search Console</strong> (and Bing Webmaster Tools). It's free and shows exactly which pages are indexed, which aren't, and why.</li>
+<li><strong>Submit an XML sitemap</strong> listing the pages you want indexed. The <a href="../tools/robots-sitemap-builder.html">robots and sitemap builder</a> can make one.</li>
+<li><strong>Check robots.txt and noindex tags.</strong> A leftover "discourage search engines" setting from development is one of the most common reasons new sites never appear.</li>
+<li><strong>Link to every important page</strong> from somewhere on your site. Orphan pages with no internal links are hard to discover and look unimportant.</li>
+</ul>
+<figure class="video" data-stage="grow" data-tags="grow"><div class="video-frame"><button class="yt-facade" type="button" data-yt="ONr5Z7VhNFI" aria-label="Play video: Intro to Google Search Console"></button></div><figcaption><h3>Intro to Google Search Console</h3><p>Google Search Central. The official introduction to the tool every site owner should use. <a href="https://www.youtube.com/watch?v=ONr5Z7VhNFI" target="_blank" rel="noopener">Watch on YouTube</a></p></figcaption></figure>
+<h2 id="step-2-make-each-page-easy-to-understand">Step 2: make each page easy to understand</h2>
+<ul>
+<li><strong>One page, one topic.</strong> Decide the main question each page answers and keep it focused.</li>
+<li><strong>A descriptive title tag</strong> that uses the words people search for, near the start. Make every title unique.</li>
+<li><strong>A meta description</strong> that summarises what the reader gets. It doesn't directly affect ranking, but it affects whether people click.</li>
+<li><strong>Clear headings</strong> (one H1, then H2s for sections) so both people and machines can scan the structure.</li>
+<li><strong>Descriptive link text and image alt text.</strong> "Download the launch checklist" beats "click here".</li>
+<li><strong>Structured data</strong> where it fits, generated with the <a href="../tools/schema-generator.html">schema generator</a>.</li>
+</ul>
+<h2 id="step-3-deserve-the-ranking">Step 3: deserve the ranking</h2>
+<p>Google's own guidance centres on <em>helpful, reliable, people-first content</em>: content created to help a reader, not to manipulate rankings. In practice that means:</p>
+<ul>
+<li>Answering the question fully, with specifics, examples and numbers a generic page wouldn't have.</li>
+<li>Showing who wrote it and why they know, especially for topics that affect money, health or safety.</li>
+<li>Keeping facts current and dating your updates.</li>
+<li>Avoiding thin pages: dozens of near-identical pages targeting slight keyword variations tend to hurt more than help.</li>
+</ul>
+<div class="callout"><p><strong>Spam policies are real.</strong> Hidden text, link schemes, mass-produced pages with little value and scraped content can get pages demoted or removed. Read Google's Search Essentials once; it's short and specific.</p></div>
+<h2 id="step-4-make-it-fast-and-usable">Step 4: make it fast and usable</h2>
+<p>Search engines measure real-user experience. Pages that load slowly, jump around while loading or respond sluggishly lose visitors, and page experience is part of how results are ranked. See <a href="core-web-vitals.html">Core Web Vitals in plain English</a> for the three metrics and how to fix them. Mobile matters most: Google primarily uses the mobile version of your pages for indexing and ranking.</p>
+<h2 id="step-5-earn-links-and-mentions">Step 5: earn links and mentions</h2>
+<p>Links from relevant, respected sites remain a strong signal that a page is worth trusting. The sustainable ways to earn them are unglamorous: publish something genuinely useful (original data, a free tool, a definitive guide), tell the people who would benefit, and build relationships in your field. Avoid buying links or joining link exchanges; they violate search policies and the risk outweighs the reward.</p>
+<h2 id="your-first-month-seo-checklist">Your first-month SEO checklist</h2>
+<ol>
+<li>Verify Search Console and submit your sitemap.</li>
+<li>Fix any "not indexed" pages that should be indexed.</li>
+<li>Write unique titles and descriptions for every page.</li>
+<li>Add internal links from your homepage and navigation to your key pages.</li>
+<li>Publish one genuinely useful page per week and link it from an older page.</li>
+<li>Check the Performance report each month: which queries show your pages, and which pages are close to page one.</li>
+</ol>
+<h2 id="how-long-it-takes">How long it takes</h2>
+<p>New sites often see their first search impressions within weeks, but meaningful traffic usually takes months of steady publishing. The pages that rank first tend to be specific answers to specific questions. Start there, measure in Search Console, and double down on what gets impressions.</p>
+    <hr class="rule">
+    <p class="small muted">This guide is general information to help you make your own decisions. It isn't legal, financial or tax advice. Spotted something out of date? <a href="../contact.html?topic=Correction">Tell us</a> and we'll fix it.</p>
+  </article>
+  <aside class="aside">
+    <nav class="toc" aria-label="On this page"><h2>On this page</h2><ol><li><a href="#how-search-works-in-three-steps">How search works in three steps</a></li><li><a href="#step-1-make-sure-you-can-be-found">Step 1: make sure you can be found</a></li><li><a href="#step-2-make-each-page-easy-to-understand">Step 2: make each page easy to understand</a></li><li><a href="#step-3-deserve-the-ranking">Step 3: deserve the ranking</a></li><li><a href="#step-4-make-it-fast-and-usable">Step 4: make it fast and usable</a></li><li><a href="#step-5-earn-links-and-mentions">Step 5: earn links and mentions</a></li><li><a href="#your-first-month-seo-checklist">Your first-month SEO checklist</a></li><li><a href="#how-long-it-takes">How long it takes</a></li></ol></nav>
+    <div class="mini-cta" data-stage="grow"><h2>Want more traffic, faster?</h2><p>Get an SEO and speed review with a prioritised plan.</p><a class="btn btn-stage btn-sm" href="../services.html?service=SEO%20growth">Start a brief</a></div>
+    <div class="toc"><h2>Tools for this guide</h2><ol><li><a href="../tools/seo-meta-checker.html">SEO meta checker</a></li><li><a href="../tools/schema-generator.html">Schema generator</a></li><li><a href="../tools/robots-sitemap-builder.html">Robots.txt & sitemap builder</a></li></ol></div>
+  </aside>
+</div>
+<section class="section-tight">
+  <div class="wrap">
+    <div class="section-head"><h2>More grow guides</h2><p><a class="text-link" href="../guides.html">All guides</a></p></div>
+    <div class="rows"><a class="row" data-stage="grow" data-tags="grow" href="../guides/seo-fundamentals.html"><div><h3>SEO fundamentals for new websites</h3><p>How crawling, indexing and ranking actually work, and what to do first.</p></div><span class="go">4 min read</span></a><a class="row" data-stage="grow" data-tags="grow" href="../guides/core-web-vitals.html"><div><h3>Core Web Vitals in plain English</h3><p>LCP, INP and CLS explained with fixes in priority order.</p></div><span class="go">4 min read</span></a></div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-news">
+        <a class="brand" href="../index.html" aria-label="Web.Life home"><svg viewBox="0 0 34 22" aria-hidden="true"><path d="M2 15 L9 15 L12 6 L17 18 L21 9 L24 15 L32 15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="2.5" cy="15" r="2.3" fill="#2F6BFF"/><circle cx="12" cy="6" r="2.3" fill="#1E9E6A"/><circle cx="17" cy="18" r="2.3" fill="#D99A0B"/><circle cx="21" cy="9" r="2.3" fill="#7B4DD8"/><circle cx="31.5" cy="15" r="2.3" fill="#B8325E"/></svg><span>Web.Life</span></a>
+        <p>One practical email a week: a tool, a fix and a number worth knowing for every stage of your website's life.</p>
+        <form class="nl" data-form="newsletter" data-subject="Newsletter signup" data-success="You're in. The next issue lands in your inbox this week.">
+          <label class="visually-hidden" for="nl-email">Email address</label>
+          <input id="nl-email" name="email" type="email" placeholder="you@example.com" required autocomplete="email" data-label="Email">
+          <div class="hp" aria-hidden="true"><label>Leave empty<input name="_honey" tabindex="-1" autocomplete="off"></label></div>
+          <button class="btn btn-sm" type="submit">Subscribe</button>
+          <div data-status aria-live="polite"></div>
+        </form>
+      </div>
+      <div><h2>Stages</h2><ul><li><a class="foot-stage" data-stage="launch" href="../launch.html">Launch</a></li><li><a class="foot-stage" data-stage="grow" href="../grow.html">Grow</a></li><li><a class="foot-stage" data-stage="earn" href="../earn.html">Earn</a></li><li><a class="foot-stage" data-stage="protect" href="../protect.html">Protect</a></li><li><a class="foot-stage" data-stage="legacy" href="../legacy.html">Legacy</a></li></ul></div>
+      <div><h2>Resources</h2><ul>
+        <li><a href="../tools.html">Free tools</a></li>
+        <li><a href="../guides.html">Guides</a></li>
+        <li><a href="../videos.html">Videos</a></li>
+        <li><a href="../pulse.html">Web Pulse</a></li>
+        <li><a href="../glossary.html">Glossary</a></li></ul></div>
+      <div><h2>Get involved</h2><ul>
+        <li><a href="../services.html">Get expert help</a></li>
+        <li><a href="../support.html">Support Web.Life</a></li>
+        <li><a href="../contests.html">Contests &amp; prizes</a></li>
+        <li><a href="../careers.html">Careers &amp; talent</a></li>
+        <li><a href="../advertise.html">Advertise &amp; sponsor</a></li></ul></div>
+      <div><h2>Company</h2><ul>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="../privacy.html">Privacy policy</a></li>
+        <li><a href="../terms.html">Terms of use</a></li>
+        <li><a href="../disclaimer.html">Disclaimer &amp; trademarks</a></li></ul></div>
+    </div>
+    <div class="foot-bottom">
+      <p>Web.Life is an independent publication. It is not affiliated with, endorsed by or connected to any company, product or trademark called "WebLife", "Web Life" or similar. Third-party names belong to their owners and are used only to identify them. <a href="../disclaimer.html">Read the full disclosure</a>.</p>
+      <p>&copy; <span data-year>2026</span> Web.Life. All rights reserved. Free tools run in your browser; nothing you type into them is sent to us.</p>
+    </div>
+  </div>
+</footer>
+<script src="../assets/js/site.js" defer></script>
+</body>
+</html>

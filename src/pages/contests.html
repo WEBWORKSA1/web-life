@@ -1,0 +1,99 @@
+<!--{"title": "Website contests and prizes: enter this month's challenge", "description": "Monthly website contests: Launch of the Month, Speed Sprint and the Tool Idea Challenge. Free to enter, with homepage spotlights and expert reviews as prizes.", "nav": ""}-->
+<section class="page-hero" data-contest data-stage="launch">
+  <div class="wrap split split-wide" style="align-items:end">
+    <div>
+      <p class="crumbs"><a href="index.html">Home</a> / Contests</p>
+      <span class="stage-tag"><span data-contest-month>This month</span></span>
+      <h1 style="margin-top:.6rem"><span data-contest-title>Launch of the Month</span></h1>
+      <p class="lede" data-contest-body>Show us a website that went live in the last 90 days.</p>
+      <a class="btn btn-stage" href="#enter">Enter now, free</a>
+    </div>
+    <div>
+      <p style="font-weight:700;margin-bottom:.5rem">Entries close in</p>
+      <div class="countdown" data-countdown aria-label="Time remaining this month">
+        <div><b>00</b><span>days</span></div><div><b>00</b><span>hours</span></div><div><b>00</b><span>minutes</span></div><div><b>00</b><span>seconds</span></div>
+      </div>
+      <p class="small muted" style="margin-top:.75rem">Next month: <span data-contest-next>Speed Sprint</span></p>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap split">
+    <div>
+      <h2>Prizes</h2>
+      <div class="rows">
+        <div class="row" data-stage="earn"><div><h3>Winner</h3><p>A month-long spotlight on the Web.Life homepage, a feature in the newsletter, and a professional site review with a written action plan.</p></div><span class="go">1st</span></div>
+        <div class="row" data-stage="grow"><div><h3>Runners-up</h3><p>A newsletter feature and a written review of the three highest-impact fixes for their site.</p></div><span class="go">2nd–3rd</span></div>
+        <div class="row" data-stage="protect"><div><h3>Sponsor prizes</h3><p>When a sponsor supports a contest, their prizes are listed here before entries open.</p></div><span class="go">Bonus</span></div>
+      </div>
+      <h2 style="margin-top:2.5rem">The three contests</h2>
+      <p>One contest runs each calendar month, rotating in this order.</p>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Contest</th><th>Enter with</th><th>Judged on</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Launch of the Month</strong></td><td>A website that went live in the last 90 days</td><td>Clarity 30%, usefulness 30%, accessibility 20%, speed 20%</td></tr>
+          <tr><td><strong>Speed Sprint</strong></td><td>Before-and-after PageSpeed Insights results for the same URL</td><td>Measured improvement 70%, real-user relevance 15%, write-up 15%</td></tr>
+          <tr><td><strong>Tool Idea Challenge</strong></td><td>A one-paragraph pitch for a free web tool</td><td>Usefulness 40%, originality 30%, feasibility 30%</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <div class="panel" id="enter" data-stage="launch">
+      <h2 style="font-size:1.6rem">Enter this month's contest</h2>
+      <form class="form" data-form="contest-entry" data-subject="Contest entry" data-success="You're entered. We'll confirm by email and announce winners within 14 days of the close.">
+        <div class="field"><label for="ce-contest">Contest</label><select id="ce-contest" name="contest" required data-contest-select><option>Launch of the Month</option><option>Speed Sprint</option><option>Tool Idea Challenge</option></select></div>
+        <div class="field-row">
+          <div class="field"><label for="ce-name">Your name</label><input id="ce-name" name="name" type="text" autocomplete="name" required></div>
+          <div class="field"><label for="ce-email">Email</label><input id="ce-email" name="email" type="email" autocomplete="email" required></div>
+        </div>
+        <div class="field"><label for="ce-url">Website address (not needed for tool ideas)</label><input id="ce-url" name="url" type="url" placeholder="https://"></div>
+        <div class="field"><label for="ce-entry">Your entry</label><textarea id="ce-entry" name="entry" required minlength="30" placeholder="What did you build or improve, or what should the tool do? Include before-and-after scores for Speed Sprint."></textarea></div>
+        <div class="field"><label for="ce-country">Country</label><input id="ce-country" name="country" type="text" autocomplete="country-name" required></div>
+        <label class="check"><input type="checkbox" name="age" required data-label="Confirms 18 or older"> <span>I'm 18 or older.</span></label>
+        <label class="check"><input type="checkbox" name="rules" required data-label="Agrees to official rules"> <span>I agree to the <a href="#rules">official rules</a> and confirm I own or am authorised to submit this entry.</span></label>
+        <div class="hp" aria-hidden="true"><label>Leave empty<input name="_honey" tabindex="-1" autocomplete="off"></label></div>
+        <button class="btn btn-stage" type="submit">Submit my entry</button>
+        <div data-status aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight" id="donate-prize">
+  <div class="wrap">
+    <div class="lead-block" data-stage="earn">
+      <div><h2>Sponsor or donate a prize</h2><p>Software licences, hosting credit, courses or services for winners. Your brand is credited on this page, in the announcement and in the newsletter, and the prize is clearly labelled as sponsored.</p></div>
+      <div class="form-card">
+        <form class="form" data-form="prize-sponsor" data-subject="Contest prize sponsorship" data-success="Thank you. We'll reply within one business day with available contest dates.">
+          <div class="field"><label for="ps-company">Company or name</label><input id="ps-company" name="company" type="text" required></div>
+          <div class="field"><label for="ps-email">Email</label><input id="ps-email" name="email" type="email" autocomplete="email" required></div>
+          <div class="field"><label for="ps-prize">What would you like to offer?</label><textarea id="ps-prize" name="prize" required style="min-height:80px"></textarea></div>
+          <div class="hp" aria-hidden="true"><label>Leave empty<input name="_honey" tabindex="-1" autocomplete="off"></label></div>
+          <button class="btn btn-solid" type="submit">Offer a prize</button>
+          <div data-status aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight" id="rules">
+  <div class="wrap narrow prose" style="font-size:1rem">
+    <h2>Official rules</h2>
+    <p><strong>No purchase or payment is necessary to enter or win.</strong> Supporting Web.Life does not improve your chances.</p>
+    <ol>
+      <li><strong>Organiser.</strong> The contests are run by Web.Life.</li>
+      <li><strong>Eligibility.</strong> Open to individuals aged 18 or older. Void where prohibited or restricted by law. Web.Life staff, judges and their immediate families may not enter.</li>
+      <li><strong>Entry period.</strong> Each contest runs from the first day to the last day of the calendar month shown on this page, ending at 23:59 in the entrant's local time zone as displayed by the countdown.</li>
+      <li><strong>How to enter.</strong> Submit the form above. One entry per person per contest. Entries must be your own work or submitted with the owner's permission.</li>
+      <li><strong>Content rules.</strong> Entries must be lawful, must not infringe anyone's rights, and must not contain adult, hateful, deceptive or malicious content. We may disqualify entries that break these rules.</li>
+      <li><strong>Judging.</strong> A panel chosen by Web.Life scores entries using the published criteria for that contest. Judges' decisions are final.</li>
+      <li><strong>Winners.</strong> Winners are notified by email and announced within 14 days after the contest closes. If a winner doesn't respond within 14 days, we may choose an alternate.</li>
+      <li><strong>Prizes.</strong> Prizes are as described on this page at the time of entry, are non-transferable and have no cash alternative. Sponsor prizes are provided by the sponsor, who is responsible for fulfilling them. Winners are responsible for any taxes.</li>
+      <li><strong>Publicity.</strong> By entering, you allow Web.Life to display your name, website address and entry in connection with the contest.</li>
+      <li><strong>Privacy.</strong> Entry details are used only to run the contest, as described in our <a href="privacy.html">privacy policy</a>.</li>
+      <li><strong>Changes.</strong> Web.Life may modify, suspend or cancel a contest if circumstances beyond its control affect fair operation.</li>
+    </ol>
+  </div>
+</section>

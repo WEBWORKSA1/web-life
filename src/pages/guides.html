@@ -1,0 +1,37 @@
+<!--{"title": "Website guides: launch, SEO, monetisation, security and selling", "description": "Plain-English guides for website owners: launch plans, domain names, SEO fundamentals, Core Web Vitals, monetisation, security, backups, valuation and digital legacy.", "nav": "guides", "priority": "0.9", "schema": [{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Website guides", "url": "https://web.life/guides.html"}]}-->
+<section class="page-hero">
+  <div class="wrap">
+    <p class="crumbs"><a href="index.html">Home</a> / Guides</p>
+    <h1>Guides for the whole life of a website.</h1>
+    <p class="lede">Original, practical and reviewed when the facts change. Each guide ends with the tools and next steps that go with it.</p>
+  </div>
+</section>
+<section class="section-tight" data-filter-scope>
+  <div class="wrap">
+    <div class="filter-bar" role="group" aria-label="Filter guides by stage">
+      <button class="chip-btn" type="button" data-filter-btn="all" aria-pressed="true">All</button>
+      <button class="chip-btn" type="button" data-filter-btn="launch" aria-pressed="false">Launch</button>
+      <button class="chip-btn" type="button" data-filter-btn="grow" aria-pressed="false">Grow</button>
+      <button class="chip-btn" type="button" data-filter-btn="earn" aria-pressed="false">Earn</button>
+      <button class="chip-btn" type="button" data-filter-btn="protect" aria-pressed="false">Protect</button>
+      <button class="chip-btn" type="button" data-filter-btn="legacy" aria-pressed="false">Legacy</button>
+      <label class="visually-hidden" for="guide-search">Search guides</label>
+      <input id="guide-search" type="search" placeholder="Search guides" data-filter-search>
+    </div>
+    {{guide_rows}}
+    <p data-filter-empty hidden class="muted">No guides match that search. Try the <a href="glossary.html">glossary</a>, or <a href="contact.html?topic=Guide%20request">request a guide</a>.</p>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap">
+    <div class="panel split" style="align-items:center">
+      <div><h2 style="font-size:1.6rem">Get the weekly guide in your inbox</h2><p style="margin:0">One practical email a week: a tool, a fix and a number worth knowing.</p></div>
+      <form class="form" data-form="newsletter-guides" data-subject="Newsletter signup (guides page)" data-success="You're in. The next issue lands this week.">
+        <div class="field"><label for="ng-email">Email address</label><input id="ng-email" name="email" type="email" autocomplete="email" required></div>
+        <div class="hp" aria-hidden="true"><label>Leave empty<input name="_honey" tabindex="-1" autocomplete="off"></label></div>
+        <button class="btn btn-solid" type="submit">Subscribe</button>
+        <div data-status aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+</section>

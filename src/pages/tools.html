@@ -1,0 +1,39 @@
+<!--{"title": "Free website tools: 14 calculators, generators and checkers", "description": "Fourteen free website tools that run in your browser: launch cost calculator, domain name generator, SEO meta checker, password generator, revenue estimator, valuation and more.", "nav": "tools", "priority": "0.9", "schema": [{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Free website tools", "url": "https://web.life/tools.html"}]}-->
+<section class="page-hero">
+  <div class="wrap">
+    <p class="crumbs"><a href="index.html">Home</a> / Tools</p>
+    <h1>Free tools for every stage of a website's life.</h1>
+    <p class="lede">Fourteen calculators, generators and checkers. No sign-up, no limits, and nothing you type leaves your browser.</p>
+  </div>
+</section>
+<section class="section-tight" data-filter-scope>
+  <div class="wrap">
+    <div class="filter-bar" role="group" aria-label="Filter tools by stage">
+      <button class="chip-btn" type="button" data-filter-btn="all" aria-pressed="true">All</button>
+      <button class="chip-btn" type="button" data-filter-btn="launch" aria-pressed="false">Launch</button>
+      <button class="chip-btn" type="button" data-filter-btn="grow" aria-pressed="false">Grow</button>
+      <button class="chip-btn" type="button" data-filter-btn="earn" aria-pressed="false">Earn</button>
+      <button class="chip-btn" type="button" data-filter-btn="protect" aria-pressed="false">Protect</button>
+      <button class="chip-btn" type="button" data-filter-btn="legacy" aria-pressed="false">Legacy</button>
+      <label class="visually-hidden" for="tool-search">Search tools</label>
+      <input id="tool-search" type="search" placeholder="Search tools" data-filter-search>
+    </div>
+    {{tool_tiles}}
+    <p data-filter-empty hidden class="muted">No tools match that search. Try a broader word, or <a href="contests.html">pitch the tool you need</a> in this month's Tool Idea Challenge.</p>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap split">
+    <div>
+      <h2>Missing a tool?</h2>
+      <p>We build a new free tool every month. Tell us the calculation, check or generator you wish existed. If we build your idea, we credit you on the tool page.</p>
+    </div>
+    <form class="form panel" data-form="tool-idea" data-subject="Tool idea" data-success="Thanks for the idea. We review suggestions every month and will email you if we build it.">
+      <div class="field"><label for="ti-idea">What should the tool do?</label><textarea id="ti-idea" name="idea" required minlength="15"></textarea></div>
+      <div class="field"><label for="ti-email">Your email (optional, for credit)</label><input id="ti-email" name="email" type="email" autocomplete="email"></div>
+      <div class="hp" aria-hidden="true"><label>Leave empty<input name="_honey" tabindex="-1" autocomplete="off"></label></div>
+      <button class="btn btn-solid" type="submit">Suggest this tool</button>
+      <div data-status aria-live="polite"></div>
+    </form>
+  </div>
+</section>

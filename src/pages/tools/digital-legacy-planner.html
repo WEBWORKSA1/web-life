@@ -1,0 +1,65 @@
+<!--{"title": "Digital legacy planner for domains, websites and accounts", "description": "Build a private inventory of your domains, websites and online accounts with renewal dates and handover instructions. Saved only in your browser; print or export it.", "nav": "legacy", "scripts": ["tools"], "parent": ["Tools", "tools.html"], "schema": [{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Digital legacy planner", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any (runs in a web browser)", "url": "https://web.life/tools/digital-legacy-planner.html", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}]}-->
+<section class="page-hero" data-stage="legacy">
+  <div class="wrap">
+    <p class="crumbs"><a href="../index.html">Home</a> / <a href="../tools.html">Tools</a> / Digital legacy planner</p>
+    <a class="stage-tag" href="../legacy.html">Legacy tool</a>
+    <h1 style="margin-top:.6rem;max-width:22ch">Digital legacy planner</h1>
+    <p class="lede">List every domain, site and account someone would need to find. Add renewal dates and what should happen to each. It stays in this browser until you export or print it.</p>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap" data-stage="legacy">
+    <div class="tool tool-full" data-tool="legacy">
+      <div style="padding:clamp(1rem,3vw,1.5rem)">
+        <div class="callout" data-stage="legacy" style="margin-top:0"><p><strong>Never type passwords here.</strong> Record where things are and who should handle them. Keep passwords in a password manager and tell your trusted contact how to reach it.</p></div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Type</th><th>Name or address</th><th>Provider</th><th>Renews</th><th>What should happen</th><th>Who and notes</th><th><span class="visually-hidden">Remove</span></th></tr></thead>
+          <tbody id="l-rows"></tbody>
+        </table></div>
+        <div class="inline-actions no-print">
+          <button class="btn btn-solid btn-sm" type="button" id="l-add">Add an item</button>
+          <button class="btn btn-sm" type="button" data-print>Print</button>
+          <button class="btn btn-sm" type="button" id="l-export">Export file</button>
+          <label class="btn btn-sm" style="cursor:pointer">Import file<input type="file" id="l-import" accept="application/json" class="visually-hidden"></label>
+          <button class="btn btn-sm" type="button" id="l-clear">Clear all</button>
+        </div>
+        <p class="small muted" id="l-count" style="margin-top:.75rem"></p>
+      </div>
+    </div>
+    <p class="small muted" style="margin-top:.75rem">Runs entirely in your browser. Nothing you enter is sent to Web.Life.</p>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap article-layout" data-stage="legacy" style="padding-top:0">
+    <div class="prose">
+<h2>Why this matters for website owners</h2>
+<p>Domains and hosting are rented, not owned outright. If renewals stop because the card on file expires or the owner can't act, a domain can lapse and be registered by someone else, taking the website and its email with it. A short inventory, kept somewhere a trusted person can find it, prevents that.</p>
+<h2>What to record</h2>
+<ul>
+<li><strong>Domains:</strong> the registrar, the expiry date and the account email.</li>
+<li><strong>Websites:</strong> the host, the platform and where backups are stored.</li>
+<li><strong>Email:</strong> which provider hosts the mail for each domain.</li>
+<li><strong>Money:</strong> payment processors, ad accounts and affiliate programmes that pay out.</li>
+<li><strong>The keys:</strong> the password manager that holds everything, and how your contact can access it in an emergency.</li>
+</ul>
+<h2>Use the built-in legacy features</h2>
+<p>Many major platforms now let you nominate a legacy or inactive-account contact. Set them up, then note in this plan which accounts have one. Review the plan once a year, around the time you renew your most important domain.</p>
+<p>This planner is an organisational aid, not legal advice. For wills and estate instructions, speak to a qualified professional in your jurisdiction. Read the full <a href="../guides/digital-legacy-planning.html">digital legacy planning guide</a>.</p>
+    </div>
+    <aside class="aside">
+      <div class="mini-cta" data-stage="legacy">
+        <h2>Need a handover set up properly?</h2>
+        <p>We document your sites, accounts and renewals into a clean handover pack.</p>
+        <a class="btn btn-stage btn-sm" href="../services.html?service=Valuation%20or%20sale">Ask about handover</a>
+      </div>
+      <div class="toc"><h2>Related guides</h2><ol><li><a href="../guides/digital-legacy-planning.html">Digital legacy planning</a></li><li><a href="../guides/how-websites-are-valued-and-sold.html">How websites are valued and sold</a></li><li><a href="../guides/website-security-baseline.html">The website security baseline</a></li></ol></div>
+    </aside>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap">
+    <div class="section-head"><h2>More legacy tools</h2><p><a class="text-link" href="../tools.html">All 14 tools</a></p></div>
+    {{tool_tiles:legacy}}
+  </div>
+</section>

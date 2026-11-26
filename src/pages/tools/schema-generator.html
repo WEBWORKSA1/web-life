@@ -1,0 +1,80 @@
+<!--{"title": "Schema markup (JSON-LD) generator", "description": "Generate JSON-LD structured data for Organization, LocalBusiness, Article and FAQPage schema, ready to paste into your page's HTML.", "nav": "grow", "scripts": ["tools"], "parent": ["Tools", "tools.html"], "schema": [{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Schema generator", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any (runs in a web browser)", "url": "https://web.life/tools/schema-generator.html", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}]}-->
+<section class="page-hero" data-stage="grow">
+  <div class="wrap">
+    <p class="crumbs"><a href="../index.html">Home</a> / <a href="../tools.html">Tools</a> / Schema generator</p>
+    <a class="stage-tag" href="../grow.html">Grow tool</a>
+    <h1 style="margin-top:.6rem;max-width:22ch">Schema generator</h1>
+    <p class="lede">Fill in a few fields to get valid JSON-LD structured data that helps search engines understand who you are and what a page contains.</p>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap" data-stage="grow">
+    <div class="tool" data-tool="schema">
+      <div class="tool-body">
+        <div class="tool-in form">
+          <div class="field"><label for="g-type">Schema type</label><select id="g-type"><option>Organization</option><option>LocalBusiness</option><option>Article</option><option>FAQPage</option></select></div>
+          <div class="field" data-for="Organization LocalBusiness"><label for="g-name">Name</label><input id="g-name" type="text" value="Example Studio"></div>
+          <div class="field" data-for="Organization LocalBusiness"><label for="g-url">Website</label><input id="g-url" type="url" value="https://example.com"></div>
+          <div class="field" data-for="Organization LocalBusiness"><label for="g-logo">Logo URL</label><input id="g-logo" type="url" placeholder="https://example.com/logo.png"></div>
+          <div class="field" data-for="Organization LocalBusiness"><label for="g-same">Social profiles (one per line)</label><textarea id="g-same" style="min-height:80px"></textarea></div>
+          <div class="field-row" data-for="LocalBusiness"><div class="field"><label for="g-phone">Phone</label><input id="g-phone" type="tel"></div><div class="field"><label for="g-price">Price range</label><input id="g-price" type="text" placeholder="$$"></div></div>
+          <div class="field" data-for="LocalBusiness"><label for="g-street">Street address</label><input id="g-street" type="text"></div>
+          <div class="field-row" data-for="LocalBusiness"><div class="field"><label for="g-city">City</label><input id="g-city" type="text"></div><div class="field"><label for="g-region">Region</label><input id="g-region" type="text"></div></div>
+          <div class="field-row" data-for="LocalBusiness"><div class="field"><label for="g-postal">Postal code</label><input id="g-postal" type="text"></div><div class="field"><label for="g-country">Country code</label><input id="g-country" type="text" placeholder="CA"></div></div>
+          <div class="field" data-for="LocalBusiness"><label for="g-hours">Opening hours</label><input id="g-hours" type="text" placeholder="Mo-Fr 09:00-17:00"></div>
+          <div class="field" data-for="Article"><label for="g-headline">Headline</label><input id="g-headline" type="text" value="How to choose a domain name"></div>
+          <div class="field-row" data-for="Article"><div class="field"><label for="g-author">Author</label><input id="g-author" type="text"></div><div class="field"><label for="g-date">Published</label><input id="g-date" type="date"></div></div>
+          <div class="field" data-for="Article"><label for="g-image">Image URL</label><input id="g-image" type="url"></div>
+          <div class="field" data-for="Article"><label for="g-pub">Publisher</label><input id="g-pub" type="text"></div>
+          <div class="field" data-for="FAQPage"><label for="g-faq">Questions and answers</label><textarea id="g-faq" style="min-height:200px">How long does setup take?
+Most sites are live within two weeks.
+
+Do you offer refunds?
+Yes, within 30 days of purchase.</textarea><span class="hint">Question on one line, answer below it, blank line between pairs.</span></div>
+        </div>
+        <div class="tool-out" aria-live="polite">
+          <p class="result-label">Paste this into your page's HTML</p>
+          <pre class="code-out" id="g-out"></pre>
+          <div class="inline-actions"><button class="btn btn-solid btn-sm" type="button" id="g-copy">Copy code</button><a class="btn btn-sm" href="https://search.google.com/test/rich-results" target="_blank" rel="noopener">Test in Google</a></div>
+        </div>
+      </div>
+    </div>
+    <p class="small muted" style="margin-top:.75rem">Runs entirely in your browser. Nothing you enter is sent to Web.Life.</p>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap article-layout" data-stage="grow" style="padding-top:0">
+    <div class="prose">
+<h2>What structured data does</h2>
+<p>Structured data is a standard vocabulary (from schema.org) that describes a page in a way machines can read without guessing: this is a business, here is its address; this is an article, here is its author and date. Search engines use it to understand pages and, for some types, to show enhanced results. It doesn't guarantee a rich result, and it must describe content that's actually visible on the page.</p>
+<h2>Which type to use</h2>
+<ul>
+<li><strong>Organization</strong> on your homepage: name, logo and official profiles.</li>
+<li><strong>LocalBusiness</strong> if customers visit you or you serve a specific area.</li>
+<li><strong>Article</strong> on blog posts and guides.</li>
+<li><strong>FAQPage</strong> when the page shows a list of questions with answers written by you.</li>
+</ul>
+<h2>Install and test</h2>
+<ol>
+<li>Paste the code anywhere inside the page's <code>&lt;head&gt;</code> or <code>&lt;body&gt;</code>.</li>
+<li>Run Google's Rich Results Test on the live URL.</li>
+<li>Watch the Enhancements reports in Search Console over the following weeks.</li>
+</ol>
+    </div>
+    <aside class="aside">
+      <div class="mini-cta" data-stage="grow">
+        <h2>Want technical SEO handled?</h2>
+        <p>We implement structured data, sitemaps and indexing fixes across your site.</p>
+        <a class="btn btn-stage btn-sm" href="../services.html?service=SEO%20growth">Request an SEO review</a>
+      </div>
+      <div class="toc"><h2>Related guides</h2><ol><li><a href="../guides/seo-fundamentals.html">SEO fundamentals for new websites</a></li><li><a href="../guides/core-web-vitals.html">Core Web Vitals in plain English</a></li><li><a href="../guides/30-day-website-launch-plan.html">The 30-day website launch plan</a></li></ol></div>
+    </aside>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap">
+    <div class="section-head"><h2>More grow tools</h2><p><a class="text-link" href="../tools.html">All 14 tools</a></p></div>
+    {{tool_tiles:grow}}
+  </div>
+</section>

@@ -1,0 +1,74 @@
+<!--{"title": "Colour palette generator with contrast checker", "description": "Generate website colour palettes with the spacebar, lock the colours you like, check WCAG contrast against white and black, and export CSS variables.", "nav": "launch", "scripts": ["tools"], "parent": ["Tools", "tools.html"], "schema": [{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Colour palette generator", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any (runs in a web browser)", "url": "https://web.life/tools/color-palette-generator.html", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}]}-->
+<section class="page-hero" data-stage="launch">
+  <div class="wrap">
+    <p class="crumbs"><a href="../index.html">Home</a> / <a href="../tools.html">Tools</a> / Colour palette generator</p>
+    <a class="stage-tag" href="../launch.html">Launch tool</a>
+    <h1 style="margin-top:.6rem;max-width:22ch">Colour palette generator</h1>
+    <p class="lede">Press the spacebar (or the button) for a new palette. Lock the colours you want to keep and check each one's contrast before you use it for text.</p>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap" data-stage="launch">
+    <div class="tool" data-tool="palette">
+      <div style="padding:clamp(1rem,3vw,1.5rem)">
+        <div class="inline-actions" style="margin:0 0 1rem;align-items:center">
+          <button class="btn btn-solid btn-sm" type="button" id="k-gen">New palette (spacebar)</button>
+          <label class="visually-hidden" for="k-mode">Harmony</label>
+          <select id="k-mode" style="width:auto"><option value="analogous">Analogous</option><option value="complementary">Complementary</option><option value="triadic">Triadic</option><option value="mono">Monochrome</option><option value="random">Random</option></select>
+        </div>
+        <div class="swatches">
+          <div class="swatch"><span class="hex"></span><button type="button" class="lock">Lock</button><button type="button" class="cp">Copy</button></div>
+          <div class="swatch"><span class="hex"></span><button type="button" class="lock">Lock</button><button type="button" class="cp">Copy</button></div>
+          <div class="swatch"><span class="hex"></span><button type="button" class="lock">Lock</button><button type="button" class="cp">Copy</button></div>
+          <div class="swatch"><span class="hex"></span><button type="button" class="lock">Lock</button><button type="button" class="cp">Copy</button></div>
+          <div class="swatch"><span class="hex"></span><button type="button" class="lock">Lock</button><button type="button" class="cp">Copy</button></div>
+        </div>
+      </div>
+      <div class="tool-body">
+        <div class="tool-in">
+          <h2 style="font-size:1.15rem">Text contrast</h2>
+          <div class="table-wrap"><table><thead><tr><th>Colour</th><th class="num">vs white</th><th class="num">vs black</th></tr></thead><tbody id="k-contrast"></tbody></table></div>
+          <p class="small muted" style="margin-top:.6rem">AA means a ratio of at least 4.5:1, the WCAG minimum for normal-size body text.</p>
+        </div>
+        <div class="tool-out">
+          <h2 style="font-size:1.15rem">CSS variables</h2>
+          <pre class="code-out" id="k-css"></pre>
+          <div class="inline-actions"><button class="btn btn-sm" type="button" id="k-copy">Copy CSS</button></div>
+        </div>
+      </div>
+    </div>
+    <p class="small muted" style="margin-top:.75rem">Runs entirely in your browser. Nothing you enter is sent to Web.Life.</p>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap article-layout" data-stage="launch" style="padding-top:0">
+    <div class="prose">
+<h2>Choosing a harmony</h2>
+<ul>
+<li><strong>Analogous</strong> colours sit next to each other on the colour wheel. Calm and cohesive; good for content sites.</li>
+<li><strong>Complementary</strong> pairs opposite hues. High energy; use one as the accent, sparingly.</li>
+<li><strong>Triadic</strong> spaces three hues evenly. Lively; balance it with plenty of neutral space.</li>
+<li><strong>Monochrome</strong> uses one hue at different lightness levels. Hard to get wrong.</li>
+</ul>
+<h2>Give every colour a job</h2>
+<p>A working website palette usually needs a background, a text colour, one accent for links and buttons, and one or two supporting colours for states like success and warning. Decide the job first, then pick the colour. Colours that carry meaning (an error red, a success green) should stay consistent across the whole site.</p>
+<h2>Contrast is not optional</h2>
+<p>Body text needs a contrast ratio of at least 4.5:1 against its background to meet WCAG AA; large text needs 3:1. Low-contrast grey text is the most common accessibility failure on the web and it makes pages harder to read for everyone, especially on phones outdoors. If a colour you love fails, use it for shapes and accents rather than text.</p>
+    </div>
+    <aside class="aside">
+      <div class="mini-cta" data-stage="launch">
+        <h2>Want a full brand and site design?</h2>
+        <p>Get a designed, accessible site built around your palette.</p>
+        <a class="btn btn-stage btn-sm" href="../services.html?service=Build%20a%20new%20website">Get a design quote</a>
+      </div>
+      <div class="toc"><h2>Related guides</h2><ol><li><a href="../guides/30-day-website-launch-plan.html">The 30-day website launch plan</a></li><li><a href="../guides/builder-vs-cms-vs-static.html">Website builder, CMS or static site?</a></li><li><a href="../guides/core-web-vitals.html">Core Web Vitals in plain English</a></li></ol></div>
+    </aside>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap">
+    <div class="section-head"><h2>More launch tools</h2><p><a class="text-link" href="../tools.html">All 14 tools</a></p></div>
+    {{tool_tiles:launch}}
+  </div>
+</section>

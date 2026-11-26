@@ -1,0 +1,38 @@
+<!--{"title": "Video library: learn to build, grow and protect websites", "description": "Hand-picked videos on HTML, CSS, DNS, Google Search Console, Core Web Vitals, AdSense and two-factor authentication, organised by website stage.", "nav": "videos", "schema": [{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Web.Life video library", "url": "https://web.life/videos.html"}]}-->
+<section class="page-hero">
+  <div class="wrap">
+    <p class="crumbs"><a href="index.html">Home</a> / Videos</p>
+    <h1>Watch, then do.</h1>
+    <p class="lede">Hand-picked videos from Google Search Central, Chrome for Developers, freeCodeCamp and other educators, grouped by stage. Videos load only when you press play, using YouTube's privacy-enhanced mode.</p>
+  </div>
+</section>
+<section class="section-tight" data-filter-scope>
+  <div class="wrap">
+    <div class="filter-bar" role="group" aria-label="Filter videos by stage">
+      <button class="chip-btn" type="button" data-filter-btn="all" aria-pressed="true">All</button>
+      <button class="chip-btn" type="button" data-filter-btn="launch" aria-pressed="false">Launch</button>
+      <button class="chip-btn" type="button" data-filter-btn="grow" aria-pressed="false">Grow</button>
+      <button class="chip-btn" type="button" data-filter-btn="earn" aria-pressed="false">Earn</button>
+      <button class="chip-btn" type="button" data-filter-btn="protect" aria-pressed="false">Protect</button>
+      <label class="visually-hidden" for="video-search">Search videos</label>
+      <input id="video-search" type="search" placeholder="Search videos" data-filter-search>
+    </div>
+    {{video_grid}}
+    <p data-filter-empty hidden class="muted">No videos match that search.</p>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap">
+    <div class="section-head"><h2>Search YouTube by topic</h2><p>Want more? These searches open YouTube in a new tab.</p></div>
+    <ul class="pill-list">
+      <li><a href="https://www.youtube.com/results?search_query=how+to+choose+a+domain+name" target="_blank" rel="noopener">Choosing a domain</a></li>
+      <li><a href="https://www.youtube.com/results?search_query=google+search+console+tutorial" target="_blank" rel="noopener">Search Console</a></li>
+      <li><a href="https://www.youtube.com/results?search_query=core+web+vitals+explained" target="_blank" rel="noopener">Core Web Vitals</a></li>
+      <li><a href="https://www.youtube.com/results?search_query=website+backup+strategy" target="_blank" rel="noopener">Website backups</a></li>
+      <li><a href="https://www.youtube.com/results?search_query=affiliate+marketing+for+websites" target="_blank" rel="noopener">Affiliate marketing</a></li>
+      <li><a href="https://www.youtube.com/results?search_query=password+manager+explained" target="_blank" rel="noopener">Password managers</a></li>
+      <li><a href="https://www.youtube.com/results?search_query=how+to+value+a+website+for+sale" target="_blank" rel="noopener">Valuing a website</a></li>
+    </ul>
+    <p class="small muted" style="margin-top:1.25rem">Videos remain the property of their creators and are shown through YouTube's embedded player. Recommend a video for the library through our <a href="contact.html?topic=Video%20suggestion">contact form</a>.</p>
+  </div>
+</section>

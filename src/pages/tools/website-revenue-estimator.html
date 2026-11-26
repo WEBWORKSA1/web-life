@@ -1,0 +1,86 @@
+<!--{"title": "Website revenue estimator: ads, affiliates, leads and products", "description": "Estimate monthly website revenue from display ads, affiliate commissions, lead generation, products and sponsorships, with a sensitivity table.", "nav": "earn", "scripts": ["tools"], "parent": ["Tools", "tools.html"], "schema": [{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Website revenue estimator", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any (runs in a web browser)", "url": "https://web.life/tools/website-revenue-estimator.html", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}]}-->
+<section class="page-hero" data-stage="earn">
+  <div class="wrap">
+    <p class="crumbs"><a href="../index.html">Home</a> / <a href="../tools.html">Tools</a> / Website revenue estimator</p>
+    <a class="stage-tag" href="../earn.html">Earn tool</a>
+    <h1 style="margin-top:.6rem;max-width:22ch">Website revenue estimator</h1>
+    <p class="lede">Model what your traffic could earn across five revenue streams, then see which assumption moves the total most.</p>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap" data-stage="earn">
+    <div class="tool" data-tool="revenue">
+      <div class="tool-body">
+        <div class="tool-in form">
+          <div class="field-row">
+            <div class="field"><label for="v-sessions">Monthly sessions</label><input id="v-sessions" type="number" min="0" step="100" value="20000"></div>
+            <div class="field"><label for="v-pps">Pages per session</label><input id="v-pps" type="number" min="1" step="0.1" value="1.8"></div>
+          </div>
+          <div class="field-row">
+            <div class="field"><label for="v-niche">Topic</label><select id="v-niche"><option value="5">General interest</option><option value="9">Technology and software</option><option value="14">Personal finance</option><option value="10">Health</option><option value="8">Travel</option><option value="6">Food and recipes</option><option value="7" selected>Business and marketing</option></select></div>
+            <div class="field"><label for="v-rpm">Ad revenue per 1,000 pageviews ($)</label><input id="v-rpm" type="number" min="0" step="0.5" value="7"></div>
+          </div>
+          <p class="small muted" style="margin:-.25rem 0 0">Topic presets are illustrative starting points. Replace them with your own figures once you have a month of data.</p>
+          <div class="field-row">
+            <div class="field"><label for="v-affclick">Sessions that click an affiliate link (%)</label><input id="v-affclick" type="number" min="0" step="0.5" value="4"></div>
+            <div class="field"><label for="v-affconv">Of those, buy (%)</label><input id="v-affconv" type="number" min="0" step="0.5" value="5"></div>
+          </div>
+          <div class="field"><label for="v-affcomm">Average commission per sale ($)</label><input id="v-affcomm" type="number" min="0" step="1" value="25"></div>
+          <div class="field-row">
+            <div class="field"><label for="v-leadconv">Sessions that become a lead (%)</label><input id="v-leadconv" type="number" min="0" step="0.1" value="0.5"></div>
+            <div class="field"><label for="v-leadval">Value per lead ($)</label><input id="v-leadval" type="number" min="0" step="1" value="30"></div>
+          </div>
+          <div class="field-row">
+            <div class="field"><label for="v-sales">Own product sales per month</label><input id="v-sales" type="number" min="0" step="1" value="0"></div>
+            <div class="field"><label for="v-margin">Profit per sale ($)</label><input id="v-margin" type="number" min="0" step="1" value="20"></div>
+          </div>
+          <div class="field"><label for="v-spons">Sponsorship income ($/month)</label><input id="v-spons" type="number" min="0" step="50" value="0"></div>
+        </div>
+        <div class="tool-out" aria-live="polite">
+          <p class="result-label">Estimated monthly revenue</p>
+          <p class="result-big" id="v-total">$0</p>
+          <p style="font-weight:700" id="v-year"></p>
+          <div class="kv" id="v-break"></div>
+          <p class="small" id="v-rps"></p>
+          <h3 style="font-size:1rem;margin-top:1.25rem">What if one number changes?</h3>
+          <div class="table-wrap"><table><thead><tr><th>Assumption</th><th class="num">Half</th><th class="num">As entered</th><th class="num">1.5×</th></tr></thead><tbody id="v-sens"></tbody></table></div>
+        </div>
+      </div>
+    </div>
+    <p class="small muted" style="margin-top:.75rem">Runs entirely in your browser. Nothing you enter is sent to Web.Life.</p>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap article-layout" data-stage="earn" style="padding-top:0">
+    <div class="prose">
+<h2>The formula behind the estimate</h2>
+<p>Display ad income is <strong>pageviews ÷ 1,000 × RPM</strong>, where RPM is what you earn per thousand pageviews. Affiliate income is sessions × click-out rate × purchase rate × commission. Lead income is sessions × lead conversion rate × the value of a lead to you or to a buyer. Product and sponsorship income are entered directly. Everything is monthly.</p>
+<h2>Why your RPM will differ</h2>
+<p>Ad revenue per thousand pageviews varies with the audience's country, the topic, the season, the device mix and how many ads a page carries. Advertisers bid more in commercial topics and in the last quarter of the year. That's why the presets are only starting points: after a month of real data, replace them with the RPM your ad account reports.</p>
+<h2>Read the sensitivity table first</h2>
+<p>The table shows your total if one assumption is halved or raised by half. The row with the widest spread is the lever worth working on. For most new sites it's traffic; for established sites with steady traffic it's often lead value or affiliate conversion, both of which respond to better page design and clearer offers.</p>
+<h2>Ground rules</h2>
+<ul>
+<li>Never encourage or incentivise clicks on ads. It breaks ad-network policies and can close your account.</li>
+<li>Disclose affiliate relationships clearly near the links.</li>
+<li>Sell leads only with the visitor's consent to be contacted.</li>
+</ul>
+<p>Compare all nine models in <a href="../guides/website-monetization-models.html">nine ways websites make money</a>.</p>
+    </div>
+    <aside class="aside">
+      <div class="mini-cta" data-stage="earn">
+        <h2>Want a monetisation plan?</h2>
+        <p>Get a revenue mix matched to your traffic, audience and topic.</p>
+        <a class="btn btn-stage btn-sm" href="../services.html?service=Monetisation%20setup">Plan my revenue</a>
+      </div>
+      <div class="toc"><h2>Related guides</h2><ol><li><a href="../guides/website-monetization-models.html">Nine ways websites make money</a></li><li><a href="../guides/ad-network-readiness.html">Getting ad-network ready</a></li><li><a href="../guides/how-websites-are-valued-and-sold.html">How websites are valued and sold</a></li></ol></div>
+    </aside>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap">
+    <div class="section-head"><h2>More earn tools</h2><p><a class="text-link" href="../tools.html">All 14 tools</a></p></div>
+    {{tool_tiles:earn}}
+  </div>
+</section>

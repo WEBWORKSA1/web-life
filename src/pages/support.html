@@ -1,0 +1,93 @@
+<!--{"title": "Support Web.Life: fund free tools, guides, talent and prizes", "description": "Pledge one-time or monthly support for Web.Life. Your contribution funds operations, promotion, new contributors and contest prizes, and you choose where it goes.", "nav": ""}-->
+<section class="page-hero" data-stage="earn">
+  <div class="wrap">
+    <p class="crumbs"><a href="index.html">Home</a> / Support</p>
+    <h1 style="max-width:18ch">Keep the tools free. Help the next one get built.</h1>
+    <p class="lede">Web.Life is free to use: every guide, every tool, no account needed. Supporters fund the hosting, the promotion that helps people find us, the specialists who write and build, and the prizes in our monthly contests.</p>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap split">
+    <div>
+      <h2>Where support goes</h2>
+      <p>Pledges are split across four areas by default. Prefer one area? Choose it in the form and we'll direct your support there.</p>
+      <div class="alloc" role="img" aria-label="Target allocation: 35% operations and hosting, 25% promotion and marketing, 25% hiring talent, 15% contests and prizes">
+        <span style="width:35%;background:var(--ink)"></span><span style="width:25%;background:var(--ink-2)"></span><span style="width:25%;background:var(--muted)"></span><span style="width:15%;background:var(--line-2)"></span>
+      </div>
+      <div class="alloc-legend">
+        <div><i style="background:var(--ink)"></i><span><b>35%</b> operations and hosting</span></div>
+        <div><i style="background:var(--ink-2)"></i><span><b>25%</b> promotion and marketing</span></div>
+        <div><i style="background:var(--muted)"></i><span><b>25%</b> hiring writers, developers and creators</span></div>
+        <div><i style="background:var(--line-2)"></i><span><b>15%</b> contests and prizes</span></div>
+      </div>
+      <p class="small muted" style="margin-top:1rem">These are target allocations. We'll publish how support was actually spent once a year on this page.</p>
+      <h2 style="margin-top:2.5rem">What supporters get</h2>
+      <div class="rows">
+        <div class="row" data-stage="launch"><div><h3>Supporter, from $5</h3><p>Your name on the supporters wall (if you want it there) and our thanks in the newsletter.</p></div><span class="go">$5+</span></div>
+        <div class="row" data-stage="grow"><div><h3>Builder, from $25</h3><p>Everything above, plus early access to new tools before they're public.</p></div><span class="go">$25+</span></div>
+        <div class="row" data-stage="earn"><div><h3>Patron, from $100</h3><p>Everything above, plus a vote on which tool we build next.</p></div><span class="go">$100+</span></div>
+      </div>
+    </div>
+
+    <div class="panel" data-stage="earn" id="pledge">
+      <h2 style="font-size:1.6rem">Make a pledge</h2>
+      <p>Choose an amount and we'll email you a secure payment link from an established payment processor within one business day. We never ask for card details by email or on this page.</p>
+      <form class="form" data-form="support-pledge" data-subject="Support pledge" data-success="Thank you. Your secure payment link is on its way by email within one business day.">
+        <fieldset class="chips"><legend class="legend">Amount (USD)</legend>
+          <label class="chip"><input type="radio" name="amount" value="5" required><span>$5</span></label>
+          <label class="chip"><input type="radio" name="amount" value="10"><span>$10</span></label>
+          <label class="chip"><input type="radio" name="amount" value="25" checked><span>$25</span></label>
+          <label class="chip"><input type="radio" name="amount" value="50"><span>$50</span></label>
+          <label class="chip"><input type="radio" name="amount" value="100"><span>$100</span></label>
+          <label class="chip"><input type="radio" name="amount" value="custom"><span>Other</span></label>
+        </fieldset>
+        <div class="field" hidden><label for="pledge-custom">Your amount (USD)</label><input id="pledge-custom" name="custom_amount" type="number" min="1" step="1"></div>
+        <fieldset class="chips"><legend class="legend">How often</legend>
+          <label class="chip"><input type="radio" name="frequency" value="One-time" checked><span>One-time</span></label>
+          <label class="chip"><input type="radio" name="frequency" value="Monthly"><span>Monthly</span></label>
+        </fieldset>
+        <div class="field"><label for="pl-purpose">Direct my support to</label>
+          <select id="pl-purpose" name="purpose"><option>Wherever it's needed most</option><option>Operations and hosting</option><option>Promotion and marketing</option><option>Hiring talent</option><option>Contests and prizes</option></select></div>
+        <div class="field-row">
+          <div class="field"><label for="pl-name">Your name</label><input id="pl-name" name="name" type="text" autocomplete="name" required></div>
+          <div class="field"><label for="pl-email">Email</label><input id="pl-email" name="email" type="email" autocomplete="email" required></div>
+        </div>
+        <div class="field"><label for="pl-msg">Message (optional)</label><textarea id="pl-msg" name="message" style="min-height:80px"></textarea></div>
+        <label class="check"><input type="checkbox" name="public" data-label="Show name on supporters wall"> <span>Show my name on the supporters wall</span></label>
+        <p class="review" data-pledge-summary aria-live="polite"></p>
+        <div class="hp" aria-hidden="true"><label>Leave empty<input name="_honey" tabindex="-1" autocomplete="off"></label></div>
+        <button class="btn btn-stage" type="submit">Send my pledge</button>
+        <div data-status aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap">
+    <h2>Founding supporters</h2>
+    <div class="wall"><p style="margin:0">This wall is waiting for its first name. Founding supporters are listed here permanently, in the order they joined.</p></div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap split">
+    <div>
+      <h2>Other ways to help</h2>
+      <div class="rows">
+        <a class="row" data-stage="protect" href="advertise.html"><div><h3>Sponsor a tool, guide or contest</h3><p>Put your brand in front of the people your product helps.</p></div><span class="go">Sponsor</span></a>
+        <a class="row" data-stage="grow" href="careers.html"><div><h3>Contribute your skills</h3><p>Write, build, film or moderate, paid.</p></div><span class="go">Apply</span></a>
+        <a class="row" data-stage="launch" href="contests.html#donate-prize"><div><h3>Donate a prize</h3><p>Software licences, services or vouchers for contest winners.</p></div><span class="go">Offer</span></a>
+        <a class="row" data-stage="legacy" href="tools.html"><div><h3>Share a tool you found useful</h3><p>Every link from a forum, newsletter or class helps more people find us.</p></div><span class="go">Share</span></a>
+      </div>
+    </div>
+    <div class="faq">
+      <h2>Questions</h2>
+      <details><summary>Is my support tax-deductible?</summary><p>No. Web.Life is an independent publication, not a registered charity, so contributions aren't tax-deductible.</p></details>
+      <details><summary>How do I pay?</summary><p>After you pledge, we email you a secure payment link from an established payment processor. You complete payment on the processor's page, not on Web.Life.</p></details>
+      <details><summary>Can I cancel a monthly pledge?</summary><p>Yes, at any time. Reply to any receipt or use the <a href="contact.html?topic=Support%20pledge">contact form</a>.</p></details>
+      <details><summary>Do supporters influence what you publish?</summary><p>No. Supporters can vote on which free tool we build next, but editorial decisions stay independent. See our <a href="about.html#standards">editorial standards</a>.</p></details>
+    </div>
+  </div>
+</section>

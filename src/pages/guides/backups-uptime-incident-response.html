@@ -1,0 +1,62 @@
+<!--{"title": "Backups, uptime and incident response", "description": "How to back up a website (the 3-2-1 rule, frequency, restore tests), monitor uptime, and respond step by step when a site goes down or gets hacked.", "nav": "protect", "type": "article", "parent": ["Guides", "guides.html"], "schema": [{"@context": "https://schema.org", "@type": "Article", "headline": "Backups, uptime and incident response", "description": "How to back up a website (the 3-2-1 rule, frequency, restore tests), monitor uptime, and respond step by step when a site goes down or gets hacked.", "datePublished": "2026-11-26", "dateModified": "2026-11-26", "author": {"@type": "Organization", "name": "Web.Life Editorial"}, "publisher": {"@type": "Organization", "name": "Web.Life", "logo": {"@type": "ImageObject", "url": "https://web.life/assets/img/icon-512.png"}}, "mainEntityOfPage": "https://web.life/guides/backups-uptime-incident-response.html", "image": "https://web.life/assets/img/og-card.png", "wordCount": 557}]}-->
+<section class="page-hero" data-stage="protect">
+  <div class="wrap">
+    <p class="crumbs"><a href="../index.html">Home</a> / <a href="../guides.html">Guides</a> / Backups, uptime and incident response</p>
+    <a class="stage-tag" href="../protect.html">Protect guide</a>
+    <h1 style="margin-top:.6rem;max-width:24ch">Backups, uptime and incident response</h1>
+    <p class="lede">Every website will eventually have a bad day: a failed update, an expired certificate, a hosting outage or a hack. Owners who recover in an hour have three things in place before it happens.</p>
+    <p class="byline"><span>By Web.Life Editorial</span><span>Updated <time datetime="2026-11-26">26 November 2026</time></span><span>4 min read</span></p>
+  </div>
+</section>
+<div class="wrap article-layout" data-stage="protect">
+  <article class="prose">
+<h2 id="backups-the-3-2-1-rule">Backups: the 3-2-1 rule</h2>
+<p>Keep at least <strong>three</strong> copies of your site, on <strong>two</strong> different kinds of storage, with <strong>one</strong> copy off-site (somewhere other than your host). A backup that lives on the same server as the website disappears in the same disaster.</p>
+<h3>What to back up</h3>
+<ul>
+<li><strong>Files:</strong> themes, code, uploaded images and documents.</li>
+<li><strong>Database:</strong> for CMS sites, this holds your pages, posts, settings and users.</li>
+<li><strong>Configuration:</strong> DNS records, redirects, server settings and environment variables. Screenshot or export them; they're painful to recreate from memory.</li>
+<li><strong>Accounts list:</strong> where everything is hosted and who can access it. The <a href="../tools/digital-legacy-planner.html">digital legacy planner</a> works well for this.</li>
+</ul>
+<h3>How often</h3>
+<p>Match backup frequency to how much work you can afford to lose. That figure is called your recovery point objective. A blog updated weekly might back up daily and keep 30 days. A shop taking orders every hour needs more frequent database backups. Keep several older copies too: some problems, like a quiet malware infection, go unnoticed for weeks.</p>
+<h3>Test the restore</h3>
+<p>A backup you've never restored is a hope, not a plan. Once a quarter, restore a backup to a staging site or a local copy and check that pages, images and forms work. Time how long it takes. That number is your realistic recovery time.</p>
+<h2 id="uptime-hear-about-it-first">Uptime: hear about it first</h2>
+<p>Use an external uptime monitor that checks your site every few minutes from outside your host. Point it at a page that exercises your database, not only a static file, and send alerts to your phone. Also monitor certificate and domain expiry dates; expired certificates and lapsed domains cause some of the most avoidable outages. The <a href="../tools/uptime-calculator.html">uptime calculator</a> converts your host's SLA into real minutes so you know what "99.9%" allows.</p>
+<h2 id="incident-response-the-first-hour">Incident response: the first hour</h2>
+<h3>If the site is down</h3>
+<ol>
+<li><strong>Confirm it's not just you:</strong> try another network or device, and check your monitor's report.</li>
+<li><strong>Check the obvious:</strong> domain expiry, certificate expiry, hosting account status and your host's status page.</li>
+<li><strong>Undo the last change:</strong> if you updated something in the last day, roll it back or restore the most recent backup from before the change.</li>
+<li><strong>Contact your host</strong> with the exact error, the time it started and what you've already tried.</li>
+<li><strong>Tell people</strong> who depend on the site (customers, a team) what's happening and when you'll update them.</li>
+</ol>
+<h3>If the site is hacked</h3>
+<ol>
+<li><strong>Contain:</strong> change passwords for your host, CMS, registrar, email and any connected services, starting from a clean device. Revoke unknown users and API keys.</li>
+<li><strong>Preserve evidence:</strong> take a copy of the compromised files and logs before cleaning, in case you need to understand the entry point.</li>
+<li><strong>Restore clean:</strong> restore from a backup taken before the compromise, then update everything immediately.</li>
+<li><strong>Close the door:</strong> find out how they got in (an outdated plugin, a reused password) and fix it, or the attack will repeat.</li>
+<li><strong>Request review:</strong> if search engines or browsers flagged the site, request a review through Search Console after it's clean.</li>
+<li><strong>Notify if required:</strong> if personal data may have been exposed, check your legal obligations to inform users or regulators.</li>
+</ol>
+<h2 id="write-it-down-now">Write it down now</h2>
+<p>Create a one-page runbook while you're calm: where backups live, how to restore, who to call at your host, and the order of the steps above. Store it somewhere you can reach even if your site and email are down.</p>
+    <hr class="rule">
+    <p class="small muted">This guide is general information to help you make your own decisions. It isn't legal, financial or tax advice. Spotted something out of date? <a href="../contact.html?topic=Correction">Tell us</a> and we'll fix it.</p>
+  </article>
+  <aside class="aside">
+    <nav class="toc" aria-label="On this page"><h2>On this page</h2><ol><li><a href="#backups-the-3-2-1-rule">Backups: the 3-2-1 rule</a></li><li><a href="#uptime-hear-about-it-first">Uptime: hear about it first</a></li><li><a href="#incident-response-the-first-hour">Incident response: the first hour</a></li><li><a href="#write-it-down-now">Write it down now</a></li></ol></nav>
+    <div class="mini-cta" data-stage="protect"><h2>Need security help now?</h2><p>Hardening reviews and emergency recovery for hacked sites.</p><a class="btn btn-stage btn-sm" href="../services.html?service=Security%20hardening%20or%20recovery">Start a brief</a></div>
+    <div class="toc"><h2>Tools for this guide</h2><ol><li><a href="../tools/uptime-calculator.html">Uptime calculator</a></li><li><a href="../tools/website-health-check.html">Website health check</a></li><li><a href="../tools/digital-legacy-planner.html">Digital legacy planner</a></li></ol></div>
+  </aside>
+</div>
+<section class="section-tight">
+  <div class="wrap">
+    <div class="section-head"><h2>More protect guides</h2><p><a class="text-link" href="../guides.html">All guides</a></p></div>
+    {{guide_rows:protect}}
+  </div>
+</section>

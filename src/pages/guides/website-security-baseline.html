@@ -1,0 +1,61 @@
+<!--{"title": "The website security baseline", "description": "Ten security controls every website owner should have: two-factor authentication, password managers, updates, backups, registrar lock, least privilege and monitoring.", "nav": "protect", "type": "article", "parent": ["Guides", "guides.html"], "schema": [{"@context": "https://schema.org", "@type": "Article", "headline": "The website security baseline", "description": "Ten security controls every website owner should have: two-factor authentication, password managers, updates, backups, registrar lock, least privilege and monitoring.", "datePublished": "2026-11-26", "dateModified": "2026-11-26", "author": {"@type": "Organization", "name": "Web.Life Editorial"}, "publisher": {"@type": "Organization", "name": "Web.Life", "logo": {"@type": "ImageObject", "url": "https://web.life/assets/img/icon-512.png"}}, "mainEntityOfPage": "https://web.life/guides/website-security-baseline.html", "image": "https://web.life/assets/img/og-card.png", "wordCount": 541}]}-->
+<section class="page-hero" data-stage="protect">
+  <div class="wrap">
+    <p class="crumbs"><a href="../index.html">Home</a> / <a href="../guides.html">Guides</a> / The website security baseline</p>
+    <a class="stage-tag" href="../protect.html">Protect guide</a>
+    <h1 style="margin-top:.6rem;max-width:24ch">The website security baseline</h1>
+    <p class="lede">Most small websites aren't hacked by geniuses. They're hacked through a reused password, an old plugin or an account nobody remembered. These ten controls close the doors attackers use most.</p>
+    <p class="byline"><span>By Web.Life Editorial</span><span>Updated <time datetime="2026-11-26">26 November 2026</time></span><span>4 min read</span></p>
+  </div>
+</section>
+<div class="wrap article-layout" data-stage="protect">
+  <article class="prose">
+<h2 id="think-in-terms-of-accounts-not-just-the-site">Think in terms of accounts, not just the site</h2>
+<p>Your website is only as secure as every account that can change it: the domain registrar, the DNS provider, the host, the CMS, the email account that receives password resets, and any developer or plugin with access. An attacker who controls your registrar or your email can take the whole site without touching its code. So the baseline starts with accounts.</p>
+<h2 id="the-ten-controls">The ten controls</h2>
+<ol>
+<li><strong>Two-factor authentication everywhere it's offered.</strong> Start with your email, registrar, host and CMS admin. Prefer an authenticator app or a hardware security key over SMS codes where you can.</li>
+<li><strong>A password manager and unique passwords.</strong> Every account gets its own long, random password from the <a href="../tools/password-generator.html">password generator</a>. Reuse is how one breached service becomes ten compromised accounts.</li>
+<li><strong>Registrar lock and auto-renew.</strong> Transfer lock prevents unauthorised domain transfers; auto-renew with a valid card prevents accidental expiry.</li>
+<li><strong>A recovery email that isn't on the domain.</strong> If the domain lapses or is hijacked, you'll still be able to receive recovery messages.</li>
+<li><strong>Least privilege.</strong> Give each person the lowest access they need, remove accounts when people leave, and never share one admin login.</li>
+<li><strong>Updates on a schedule.</strong> Core software, themes and plugins should be updated promptly, especially security releases. Delete plugins and themes you don't use; inactive code can still be vulnerable.</li>
+<li><strong>Automatic, off-site backups.</strong> Daily for active sites, stored somewhere other than your host, with a restore tested at least quarterly. See <a href="backups-uptime-incident-response.html">backups and incident response</a>.</li>
+<li><strong>HTTPS everywhere.</strong> A valid certificate on every page, renewed automatically, with HTTP redirecting to HTTPS.</li>
+<li><strong>Monitoring.</strong> An uptime monitor, alerts for new admin users or file changes where your platform supports them, and attention to unusual traffic spikes.</li>
+<li><strong>Know your exposure.</strong> Check whether your email addresses appear in public breaches at <a href="https://haveibeenpwned.com/" target="_blank" rel="noopener">Have I Been Pwned</a> and change any affected passwords. Our <a href="../pulse.html#breaches">Web Pulse</a> lists the newest breaches.</li>
+</ol>
+{{video:0mvCeNsTa1g}}
+<h2 id="recognising-phishing-aimed-at-site-owners">Recognising phishing aimed at site owners</h2>
+<p>Owners receive convincing fake messages: "your domain expires today", "your hosting payment failed", "we detected copyright infringement, see attached". The defence is a habit: never log in from a link in an email. Open your registrar or host by typing its address or using a bookmark, and check for the alert there. Be especially suspicious of urgency, unexpected attachments and requests to "verify" credentials.</p>
+<h2 id="if-you-use-a-cms">If you use a CMS</h2>
+<ul>
+<li>Change the default admin username and limit login attempts.</li>
+<li>Install plugins only from reputable sources with recent updates and many active users.</li>
+<li>Consider a web application firewall from your host or a CDN.</li>
+<li>Keep PHP or the server runtime on a supported version; your host's control panel usually lets you switch.</li>
+</ul>
+<h2 id="if-you-use-a-static-site">If you use a static site</h2>
+<p>There's no login on the site itself to attack, which removes most risk. Your exposure moves to the accounts that publish it: your code repository and hosting. Protect those with two-factor authentication, restrict who can push to the main branch, and review any automated workflows that can modify the site.</p>
+<h2 id="a-30-minute-start">A 30-minute start</h2>
+<ol>
+<li>Turn on two-factor authentication for your email and registrar right now.</li>
+<li>Check that auto-renew and registrar lock are on.</li>
+<li>Confirm when your last backup ran, and where it's stored.</li>
+<li>List everyone who has admin access and remove anyone who shouldn't.</li>
+</ol>
+    <hr class="rule">
+    <p class="small muted">This guide is general information to help you make your own decisions. It isn't legal, financial or tax advice. Spotted something out of date? <a href="../contact.html?topic=Correction">Tell us</a> and we'll fix it.</p>
+  </article>
+  <aside class="aside">
+    <nav class="toc" aria-label="On this page"><h2>On this page</h2><ol><li><a href="#think-in-terms-of-accounts-not-just-the-site">Think in terms of accounts, not just the site</a></li><li><a href="#the-ten-controls">The ten controls</a></li><li><a href="#recognising-phishing-aimed-at-site-owners">Recognising phishing aimed at site owners</a></li><li><a href="#if-you-use-a-cms">If you use a CMS</a></li><li><a href="#if-you-use-a-static-site">If you use a static site</a></li><li><a href="#a-30-minute-start">A 30-minute start</a></li></ol></nav>
+    <div class="mini-cta" data-stage="protect"><h2>Need security help now?</h2><p>Hardening reviews and emergency recovery for hacked sites.</p><a class="btn btn-stage btn-sm" href="../services.html?service=Security%20hardening%20or%20recovery">Start a brief</a></div>
+    <div class="toc"><h2>Tools for this guide</h2><ol><li><a href="../tools/password-generator.html">Password generator</a></li><li><a href="../tools/uptime-calculator.html">Uptime calculator</a></li><li><a href="../tools/website-health-check.html">Website health check</a></li></ol></div>
+  </aside>
+</div>
+<section class="section-tight">
+  <div class="wrap">
+    <div class="section-head"><h2>More protect guides</h2><p><a class="text-link" href="../guides.html">All guides</a></p></div>
+    {{guide_rows:protect}}
+  </div>
+</section>

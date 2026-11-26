@@ -1,0 +1,40 @@
+<!--{"title": "Contact Web.Life", "description": "Contact Web.Life with questions, corrections, guide requests, tool feedback, press enquiries or privacy requests. We reply within one business day.", "nav": "", "schema": [{"@context": "https://schema.org", "@type": "ContactPage", "name": "Contact Web.Life", "url": "https://web.life/contact.html"}]}-->
+<section class="page-hero">
+  <div class="wrap">
+    <p class="crumbs"><a href="index.html">Home</a> / Contact</p>
+    <h1>Get in touch.</h1>
+    <p class="lede">Questions, corrections, ideas or press: send a message and a real person replies within one business day.</p>
+  </div>
+</section>
+<section class="section-tight">
+  <div class="wrap split split-wide">
+    <form class="form panel" data-form="contact" data-subject="Contact form" data-success="Message sent. We'll reply by email within one business day.">
+      <div class="field"><label for="ct-topic">Topic</label>
+        <select id="ct-topic" name="topic" required data-prefill="topic">
+          <option value="">Choose one</option><option>General question</option><option>Correction</option><option>Guide request</option><option>Tool feedback</option><option>Video suggestion</option><option>Glossary suggestion</option><option>Support pledge</option><option>Accessibility</option><option>Press</option><option>Privacy request</option><option>Copyright or trademark concern</option><option>Other</option>
+        </select></div>
+      <div class="field-row">
+        <div class="field"><label for="ct-name">Your name</label><input id="ct-name" name="name" type="text" autocomplete="name" required></div>
+        <div class="field"><label for="ct-email">Email</label><input id="ct-email" name="email" type="email" autocomplete="email" required></div>
+      </div>
+      <div class="field"><label for="ct-page">Page this is about (optional)</label><input id="ct-page" name="about_page" type="url" placeholder="https://web.life/..."></div>
+      <div class="field"><label for="ct-msg">Message</label><textarea id="ct-msg" name="message" required minlength="10"></textarea></div>
+      <label class="check"><input type="checkbox" name="consent" required data-label="Consent to reply"> <span>Use my details to reply to this message. See the <a href="privacy.html">privacy policy</a>.</span></label>
+      <div class="hp" aria-hidden="true"><label>Leave empty<input name="_honey" tabindex="-1" autocomplete="off"></label></div>
+      <button class="btn btn-solid" type="submit">Send message</button>
+      <div data-status aria-live="polite"></div>
+    </form>
+    <aside style="display:grid;gap:1.25rem;align-content:start">
+      <div class="panel panel-stage" data-stage="legacy">
+        <h2 style="font-size:1.25rem">Website, domain, sponsorship or partnership?</h2>
+        <p>If you're interested in this website, the Web.Life domain name, sponsorship, advertising or a partnership, contact the owner directly.</p>
+        <a class="btn btn-stage btn-sm" href="https://web.works/contact" target="_blank" rel="noopener">Contact the owner</a>
+      </div>
+      <div class="rows">
+        <a class="row" data-stage="launch" href="services.html"><div><h3>Need a project done?</h3><p>Use the project brief for a quote.</p></div><span class="go">Brief</span></a>
+        <a class="row" data-stage="protect" href="advertise.html"><div><h3>Advertising</h3><p>Media kit and sponsorships.</p></div><span class="go">Advertise</span></a>
+        <a class="row" data-stage="grow" href="careers.html"><div><h3>Jobs and talent</h3><p>Paid roles and the talent network.</p></div><span class="go">Apply</span></a>
+      </div>
+    </aside>
+  </div>
+</section>
