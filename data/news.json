@@ -1,1 +1,327 @@
-{"updated": null, "items": []}
+{
+ "updated": "2026-11-26T09:10:39.860982+00:00",
+ "items": [
+  {
+   "title": "OpenAI Isn’t Planning Prompt-Level Reports For ChatGPT Ads via @sejournal, @MattGSouthern",
+   "link": "https://www.searchenginejournal.com/openai-isnt-planning-prompt-level-reports-for-chatgpt-ads/599126/",
+   "date": "2026-11-26T04:15:54+00:00",
+   "source": "Search Engine Journal",
+   "stage": "grow"
+  },
+  {
+   "title": "Google Adds Pageburst & 11 Other Existing Bots To Its Crawler Docs via @sejournal, @MattGSouthern",
+   "link": "https://www.searchenginejournal.com/google-adds-pageburst-11-other-existing-bots-to-its-crawler-docs/599120/",
+   "date": "2026-11-26T03:22:22+00:00",
+   "source": "Search Engine Journal",
+   "stage": "grow"
+  },
+  {
+   "title": "How Wearables Can Turn Your Body Into a Dashboard",
+   "link": "https://www.freecodecamp.org/news/how-wearables-can-turn-your-body-into-a-dashboard/",
+   "date": "2026-11-25T20:11:21+00:00",
+   "source": "freeCodeCamp",
+   "stage": "launch"
+  },
+  {
+   "title": "AI Shopping Agents Bought A Fake Deal 37% Of The Time – Claude Opus Never Did via @sejournal, @slobodanmanic",
+   "link": "https://www.searchenginejournal.com/ai-shopping-agents-bought-a-fake-deal-37-of-the-time-claude-opus-never-did/598682/",
+   "date": "2026-11-25T20:00:32+00:00",
+   "source": "Search Engine Journal",
+   "stage": "grow"
+  },
+  {
+   "title": "How to Deploy to Amazon S3 Using GitLab CI/CD and AWS OIDC Without AWS Access Keys",
+   "link": "https://www.freecodecamp.org/news/how-to-deploy-to-amazon-s3-using-gitlab-ci-cd-and-aws-oidc-without-aws-access-keys/",
+   "date": "2026-11-25T19:49:25+00:00",
+   "source": "freeCodeCamp",
+   "stage": "launch"
+  },
+  {
+   "title": "Top Publisher League Tables For U.S. & U.K.",
+   "link": "https://www.searchenginejournal.com/top-publisher-league-tables-for-us-uk/598933/",
+   "date": "2026-11-25T18:00:02+00:00",
+   "source": "Search Engine Journal",
+   "stage": "grow"
+  },
+  {
+   "title": "RSS Club: Preview Art-Directed Scrollytelling Article",
+   "link": "https://css-tricks.com/rss-club-preview-art-directed-scrollytelling-article/",
+   "date": "2026-11-25T15:32:42+00:00",
+   "source": "CSS-Tricks",
+   "stage": "launch"
+  },
+  {
+   "title": "ChatGPT Ads Are Growing Fast – But Are Advertisers Seeing Results? via @sejournal, @brookeosmundson",
+   "link": "https://www.searchenginejournal.com/chatgpt-ads-are-growing-fast-but-are-advertisers-seeing-results/598052/",
+   "date": "2026-11-25T15:00:31+00:00",
+   "source": "Search Engine Journal",
+   "stage": "grow"
+  },
+  {
+   "title": "Style Queries as Conditional Modifiers",
+   "link": "https://css-tricks.com/css-style-queries-as-conditional-modifiers/",
+   "date": "2026-11-25T14:06:34+00:00",
+   "source": "CSS-Tricks",
+   "stage": "launch"
+  },
+  {
+   "title": "Is GEO Visibility Delivering Business Value, Or Are We Measuring The Wrong Outcome? via @sejournal, @billhunt",
+   "link": "https://www.searchenginejournal.com/is-geo-visibility-delivering-business-value-or-are-we-measuring-the-wrong-outcome/594064/",
+   "date": "2026-11-25T13:00:23+00:00",
+   "source": "Search Engine Journal",
+   "stage": "grow"
+  },
+  {
+   "title": "How to Set Up and Customize Light and Dark Mode in shadcn with Next.js",
+   "link": "https://www.freecodecamp.org/news/how-to-set-up-and-customize-light-and-dark-mode-in-shadcn-with-next-js/",
+   "date": "2026-11-25T00:14:03+00:00",
+   "source": "freeCodeCamp",
+   "stage": "launch"
+  },
+  {
+   "title": "How Phishing Attacks Actually Work (And How Developers Can Spot Them)",
+   "link": "https://www.freecodecamp.org/news/how-phishing-attacks-work/",
+   "date": "2026-11-24T22:32:36+00:00",
+   "source": "freeCodeCamp",
+   "stage": "launch"
+  },
+  {
+   "title": "Pass the Microsoft Azure AI Fundamentals (AI-901) Certification Exam",
+   "link": "https://www.freecodecamp.org/news/pass-the-microsoft-azure-ai-fundamentals-ai-901-certification-exam/",
+   "date": "2026-11-24T15:54:49+00:00",
+   "source": "freeCodeCamp",
+   "stage": "launch"
+  },
+  {
+   "title": "WordPress 7.2 Release Candidate 3",
+   "link": "https://wordpress.org/news/2026/11/wordpress-7-2-release-candidate-3/",
+   "date": "2026-11-24T15:53:15+00:00",
+   "source": "WordPress News",
+   "stage": "launch"
+  },
+  {
+   "title": "Join the WordPress 7.2 Release Celebration Livestream",
+   "link": "https://wordpress.org/news/2026/11/7-2-release-celebration/",
+   "date": "2026-11-23T19:06:10+00:00",
+   "source": "WordPress News",
+   "stage": "launch"
+  },
+  {
+   "title": "How to Use the GitHub CLI with GitHub Actions",
+   "link": "https://www.freecodecamp.org/news/how-to-use-the-github-cli-with-github-actions/",
+   "date": "2026-11-23T15:17:35+00:00",
+   "source": "freeCodeCamp",
+   "stage": "launch"
+  },
+  {
+   "title": "Using Fallbacks for a Robust Front-End",
+   "link": "https://css-tricks.com/using-frontend-fallbacks/",
+   "date": "2026-11-23T14:21:44+00:00",
+   "source": "CSS-Tricks",
+   "stage": "launch"
+  },
+  {
+   "title": "Dev Material Archive",
+   "link": "https://css-tricks.com/dev-material-archive/",
+   "date": "2026-11-23T14:18:50+00:00",
+   "source": "CSS-Tricks",
+   "stage": "launch"
+  },
+  {
+   "title": "Here's Why Data Breach Disclosure is so Hard: Lessons from Hundreds of Emails with Hacked Companies",
+   "link": "https://www.troyhunt.com/heres-why-data-breach-disclosure-is-so-hard-lessons-from-hundreds-of-emails-with-hacked-companies/",
+   "date": "2026-11-23T07:58:47+00:00",
+   "source": "Troy Hunt",
+   "stage": "protect"
+  },
+  {
+   "title": "Weekly Update 531: Optimizely. Script Dependencies & Third Parties",
+   "link": "https://www.troyhunt.com/weekly-update-531/",
+   "date": "2026-11-22T05:24:12+00:00",
+   "source": "Troy Hunt",
+   "stage": "protect"
+  },
+  {
+   "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+   "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+   "date": "2026-11-21T00:36:39+00:00",
+   "source": "Krebs on Security",
+   "stage": "protect"
+  },
+  {
+   "title": "Global Partners Across the Third Quarter of the 2026",
+   "link": "https://wordpress.org/news/2026/11/global-partners-third-quarter-2026/",
+   "date": "2026-11-20T17:17:24+00:00",
+   "source": "WordPress News",
+   "stage": "launch"
+  },
+  {
+   "title": "Andy Clarke answers six questions about Standout Designs for the Web",
+   "link": "https://css-tricks.com/andy-clarke-standout-designs-for-the-web-interview/",
+   "date": "2026-11-20T15:03:47+00:00",
+   "source": "CSS-Tricks",
+   "stage": "launch"
+  },
+  {
+   "title": "WordPress Credits Boost Translation",
+   "link": "https://wordpress.org/news/2026/11/wp-credits-boost-translation/",
+   "date": "2026-11-20T13:48:10+00:00",
+   "source": "WordPress News",
+   "stage": "launch"
+  },
+  {
+   "title": "scroll-state()",
+   "link": "https://css-tricks.com/almanac/functions/s/scroll-state/",
+   "date": "2026-11-19T14:57:54+00:00",
+   "source": "CSS-Tricks",
+   "stage": "launch"
+  },
+  {
+   "title": "WordPress 7.1.5 Release",
+   "link": "https://wordpress.org/news/2026/11/wordpress-7-1-5-release/",
+   "date": "2026-11-18T17:08:59+00:00",
+   "source": "WordPress News",
+   "stage": "launch"
+  },
+  {
+   "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+   "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+   "date": "2026-11-18T02:52:04+00:00",
+   "source": "Krebs on Security",
+   "stage": "protect"
+  },
+  {
+   "title": "WordPress 7.2 Release Candidate 1",
+   "link": "https://wordpress.org/news/2026/11/wordpress-7-2-release-candidate-1/",
+   "date": "2026-11-17T16:04:13+00:00",
+   "source": "WordPress News",
+   "stage": "launch"
+  },
+  {
+   "title": "Meet AI 2027 Conference (Dec 1)",
+   "link": "https://smashingmagazine.com/2026/11/online-smashingconf-ai-2027/",
+   "date": "2026-11-17T12:00:00+00:00",
+   "source": "Smashing Magazine",
+   "stage": "launch"
+  },
+  {
+   "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
+   "link": "https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/",
+   "date": "2026-11-17T08:00:00+00:00",
+   "source": "Smashing Magazine",
+   "stage": "launch"
+  },
+  {
+   "title": "Weekly Update 530: Email Dependencies & Apps",
+   "link": "https://www.troyhunt.com/weekly-update-530/",
+   "date": "2026-11-16T07:09:38+00:00",
+   "source": "Troy Hunt",
+   "stage": "protect"
+  },
+  {
+   "title": "New filtering and reporting capabilities in the Search Analytics API",
+   "link": "https://developers.google.com/search/blog/2026/11/search-analytics-api-update",
+   "date": "2026-11-16T00:00:00+00:00",
+   "source": "Google Search Central",
+   "stage": "grow"
+  },
+  {
+   "title": "Should You Actually Add AI To That? A Four-Question Audit For Product Teams",
+   "link": "https://smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/",
+   "date": "2026-11-12T10:00:00+00:00",
+   "source": "Smashing Magazine",
+   "stage": "launch"
+  },
+  {
+   "title": "Who Runs the Ransomware Group Qilin?",
+   "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+   "date": "2026-11-11T18:06:01+00:00",
+   "source": "Krebs on Security",
+   "stage": "protect"
+  },
+  {
+   "title": "Moving to a CDN without overwhelming your origin (or blocking Googlebot)",
+   "link": "https://developers.google.com/search/blog/2026/11/crawling-cdn",
+   "date": "2026-11-11T00:00:00+00:00",
+   "source": "Google Search Central",
+   "stage": "grow"
+  },
+  {
+   "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+   "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+   "date": "2026-11-10T21:55:03+00:00",
+   "source": "Krebs on Security",
+   "stage": "protect"
+  },
+  {
+   "title": "Finally, Payment by Bank Transfer Comes to Have I Been Pwned",
+   "link": "https://www.troyhunt.com/finally-payment-by-bank-transfer-comes-to-have-i-been-pwned/",
+   "date": "2026-11-10T20:26:15+00:00",
+   "source": "Troy Hunt",
+   "stage": "protect"
+  },
+  {
+   "title": "Weekly Update 529: Kids Social Media Bans (and Everything Else)",
+   "link": "https://www.troyhunt.com/weekly-update-529/",
+   "date": "2026-11-10T00:42:35+00:00",
+   "source": "Troy Hunt",
+   "stage": "protect"
+  },
+  {
+   "title": "A New Community For In-House UX People",
+   "link": "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
+   "date": "2026-11-06T08:00:00+00:00",
+   "source": "Smashing Magazine",
+   "stage": "launch"
+  },
+  {
+   "title": "Making Immersive LLM Chat Experiences More Accessible",
+   "link": "https://smashingmagazine.com/2026/11/making-immersive-llm-chat-experiences-more-accessible/",
+   "date": "2026-11-05T13:00:00+00:00",
+   "source": "Smashing Magazine",
+   "stage": "launch"
+  },
+  {
+   "title": "Want to Rent an Internet Address at the White House?",
+   "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+   "date": "2026-11-05T04:36:17+00:00",
+   "source": "Krebs on Security",
+   "stage": "protect"
+  },
+  {
+   "title": "Search Central Live in Zurich is back!",
+   "link": "https://developers.google.com/search/blog/2026/11/search-central-live-zurich-2026",
+   "date": "2026-11-04T00:00:00+00:00",
+   "source": "Google Search Central",
+   "stage": "grow"
+  },
+  {
+   "title": "Modern CSS Might Make Your Front-End More Complex",
+   "link": "https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
+   "date": "2026-11-03T10:00:00+00:00",
+   "source": "Smashing Magazine",
+   "stage": "launch"
+  },
+  {
+   "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+   "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+   "date": "2026-11-03T02:24:31+00:00",
+   "source": "Krebs on Security",
+   "stage": "protect"
+  },
+  {
+   "title": "Weekly Update 528: Reading AI-generated Code & the Economics of Solar",
+   "link": "https://www.troyhunt.com/weekly-update-528/",
+   "date": "2026-11-01T07:35:23+00:00",
+   "source": "Troy Hunt",
+   "stage": "protect"
+  },
+  {
+   "title": "Supporting a shared AI training control for websites",
+   "link": "https://developers.google.com/search/blog/2026/10/ai-training-control",
+   "date": "2026-10-30T00:00:00+00:00",
+   "source": "Google Search Central",
+   "stage": "grow"
+  }
+ ]
+}

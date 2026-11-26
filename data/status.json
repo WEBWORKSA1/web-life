@@ -1,23 +1,18 @@
 {
- "updated": "2026-11-26T09:02:55.151972+00:00",
- "news_items": 0,
- "breach_items": 0,
- "sources_ok": [],
+ "updated": "2026-11-26T09:10:39.860982+00:00",
+ "news_items": 46,
+ "breach_items": 20,
+ "sources_ok": [
+  "Google Search Central",
+  "Search Engine Journal",
+  "Smashing Magazine",
+  "CSS-Tricks",
+  "freeCodeCamp",
+  "WordPress News",
+  "Krebs on Security",
+  "Troy Hunt"
+ ],
  "sources_failed": [
-  "Google Search Central: URLError",
-  "Google Search Central: URLError",
-  "Search Engine Land: URLError",
-  "Search Engine Journal: URLError",
-  "Chrome for Developers: URLError",
-  "web.dev: URLError",
-  "Smashing Magazine: URLError",
-  "CSS-Tricks: URLError",
-  "freeCodeCamp: URLError",
-  "MDN Blog: URLError",
-  "WordPress News: URLError",
-  "Krebs on Security: URLError",
-  "Troy Hunt: URLError",
-  "Google AdSense Blog: URLError",
-  "HIBP: URLError"
+  "Search Engine Land: HTTPError"
  ]
 }

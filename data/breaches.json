@@ -1,1 +1,324 @@
-{"updated": null, "items": []}
+{
+ "updated": "2026-11-26T09:10:39.860982+00:00",
+ "source": "Have I Been Pwned (haveibeenpwned.com)",
+ "items": [
+  {
+   "name": "Bromcom",
+   "title": "Bromcom",
+   "domain": "bromcom.com",
+   "count": 355051,
+   "added": "2026-11-23T06:36:04Z",
+   "breach_date": "2026-09-06",
+   "classes": [
+    "Email addresses"
+   ],
+   "verified": true
+  },
+  {
+   "name": "TooLost",
+   "title": "Too Lost",
+   "domain": "toolost.com",
+   "count": 724323,
+   "added": "2026-11-20T19:17:16Z",
+   "breach_date": "2026-11-02",
+   "classes": [
+    "Dates of birth",
+    "Driver's licenses",
+    "Email addresses",
+    "Government issued IDs",
+    "IP addresses",
+    "Names"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Careers360",
+   "title": "Careers360",
+   "domain": "careers360.com",
+   "count": 3609421,
+   "added": "2026-11-20T03:44:54Z",
+   "breach_date": "2026-11-14",
+   "classes": [
+    "Academic records",
+    "Castes",
+    "Email addresses",
+    "Genders",
+    "Names",
+    "Phone numbers"
+   ],
+   "verified": true
+  },
+  {
+   "name": "CastleRAT",
+   "title": "CastleRAT",
+   "domain": "",
+   "count": 430557,
+   "added": "2026-11-13T05:41:32Z",
+   "breach_date": "2026-11-12",
+   "classes": [
+    "Email addresses",
+    "Passwords"
+   ],
+   "verified": true
+  },
+  {
+   "name": "YouHack",
+   "title": "YouHack",
+   "domain": "youhack.ru",
+   "count": 7160849,
+   "added": "2026-11-11T07:29:19Z",
+   "breach_date": "2013-05-29",
+   "classes": [
+    "Email addresses",
+    "IP addresses",
+    "Passwords",
+    "Usernames"
+   ],
+   "verified": true
+  },
+  {
+   "name": "SberSpasibo",
+   "title": "СберСпасибо (SberSpasibo)",
+   "domain": "spasibosberbank.ru",
+   "count": 3288711,
+   "added": "2026-11-11T01:44:58Z",
+   "breach_date": "2023-03-09",
+   "classes": [
+    "Bank card numbers",
+    "Dates of birth",
+    "Email addresses",
+    "Loyalty program details",
+    "Phone numbers"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Harvard",
+   "title": "Harvard",
+   "domain": "harvard.edu",
+   "count": 850537,
+   "added": "2026-11-03T07:24:50Z",
+   "breach_date": "2025-11-18",
+   "classes": [
+    "Charitable donations",
+    "Citizenship statuses",
+    "Dates of birth",
+    "Education levels",
+    "Email addresses",
+    "Employers"
+   ],
+   "verified": true
+  },
+  {
+   "name": "AfD",
+   "title": "AfD",
+   "domain": "afd.de",
+   "count": 345439,
+   "added": "2026-10-27T07:01:06Z",
+   "breach_date": "2026-09-09",
+   "classes": [
+    "Email addresses",
+    "Email messages"
+   ],
+   "verified": true
+  },
+  {
+   "name": "AssuranceRetraite",
+   "title": "Assurance Retraite",
+   "domain": "lassuranceretraite.fr",
+   "count": 70372,
+   "added": "2026-10-20T02:29:36Z",
+   "breach_date": "2024-09-01",
+   "classes": [
+    "Dates of birth",
+    "Email addresses",
+    "Family members' names",
+    "Government issued IDs",
+    "Income levels",
+    "Marital statuses"
+   ],
+   "verified": true
+  },
+  {
+   "name": "GitesDeFrance",
+   "title": "Gîtes de France",
+   "domain": "gites-de-france.com",
+   "count": 117574,
+   "added": "2026-10-18T04:50:13Z",
+   "breach_date": "2026-05-16",
+   "classes": [
+    "Booking details",
+    "Email addresses",
+    "Names",
+    "Phone numbers",
+    "Physical addresses"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Crunchbase",
+   "title": "Crunchbase",
+   "domain": "crunchbase.com",
+   "count": 559908,
+   "added": "2026-10-14T06:01:26Z",
+   "breach_date": "2026-01-22",
+   "classes": [
+    "Email addresses",
+    "Employers",
+    "Job titles",
+    "Names",
+    "Phone numbers",
+    "Physical addresses"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Sharecare",
+   "title": "Sharecare",
+   "domain": "sharecare.com",
+   "count": 318185,
+   "added": "2026-10-12T23:28:32Z",
+   "breach_date": "2026-08-12",
+   "classes": [
+    "Dates of birth",
+    "Email addresses",
+    "Employers",
+    "Genders",
+    "Government issued IDs",
+    "Job titles"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Neogen",
+   "title": "Neogen",
+   "domain": "neogen.com",
+   "count": 435963,
+   "added": "2026-10-09T07:06:25Z",
+   "breach_date": "2026-08-29",
+   "classes": [
+    "Email addresses",
+    "Employers",
+    "Job titles",
+    "Names",
+    "Phone numbers",
+    "Physical addresses"
+   ],
+   "verified": true
+  },
+  {
+   "name": "CyrusOne",
+   "title": "CyrusOne",
+   "domain": "cyrusone.com",
+   "count": 373460,
+   "added": "2026-10-07T23:19:16Z",
+   "breach_date": "2026-08-05",
+   "classes": [
+    "Email addresses",
+    "Employers",
+    "Job titles",
+    "Names",
+    "Phone numbers",
+    "Physical addresses"
+   ],
+   "verified": true
+  },
+  {
+   "name": "DoubleCounter",
+   "title": "Double Counter",
+   "domain": "doublecounter.gg",
+   "count": 274922,
+   "added": "2026-10-07T05:42:24Z",
+   "breach_date": "2026-10-04",
+   "classes": [
+    "Email addresses",
+    "Geographic locations",
+    "Names",
+    "Usernames"
+   ],
+   "verified": true
+  },
+  {
+   "name": "AngelOne",
+   "title": "Angel One",
+   "domain": "angelone.in",
+   "count": 6765054,
+   "added": "2026-10-07T03:45:31Z",
+   "breach_date": "2023-04-01",
+   "classes": [
+    "Bank account numbers",
+    "Dates of birth",
+    "Email addresses",
+    "Financial investments",
+    "Government issued IDs",
+    "Names"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Medela",
+   "title": "Medela",
+   "domain": "medela.com",
+   "count": 423947,
+   "added": "2026-09-30T11:48:28Z",
+   "breach_date": "2026-09-07",
+   "classes": [
+    "Email addresses",
+    "Employers",
+    "Job titles",
+    "Names",
+    "Phone numbers",
+    "Physical addresses"
+   ],
+   "verified": true
+  },
+  {
+   "name": "LimeLeads",
+   "title": "LimeLeads",
+   "domain": "limeleads.com",
+   "count": 17838396,
+   "added": "2026-09-22T08:02:37Z",
+   "breach_date": "2019-08-01",
+   "classes": [
+    "Email addresses",
+    "Employers",
+    "Geographic locations",
+    "Job titles",
+    "Phone numbers"
+   ],
+   "verified": true
+  },
+  {
+   "name": "BurgerKingRussia",
+   "title": "Burger King Russia",
+   "domain": "burgerkingrus.ru",
+   "count": 3155792,
+   "added": "2026-09-21T13:54:00Z",
+   "breach_date": "2024-08-25",
+   "classes": [
+    "Dates of birth",
+    "Email addresses",
+    "Genders",
+    "Geographic locations",
+    "Names",
+    "Phone numbers"
+   ],
+   "verified": true
+  },
+  {
+   "name": "Chess2026",
+   "title": "Chess.com (2026)",
+   "domain": "chess.com",
+   "count": 4653212,
+   "added": "2026-09-13T13:09:11Z",
+   "breach_date": "2026-08-03",
+   "classes": [
+    "Email addresses",
+    "Geographic locations",
+    "Names",
+    "Usernames"
+   ],
+   "verified": true
+  }
+ ]
+}
