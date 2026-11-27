@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T21:40:48.053270+00:00",
+ "updated": "2026-11-27T08:45:25.530126+00:00",
  "items": [
   {
    "title": "The Missing Step In Prompt Tracking Was Written Down In 1995",
@@ -16,14 +16,14 @@
    "stage": "grow"
   },
   {
-   "title": "OpenAI Isn’t Planning Prompt-Level Reports For ChatGPT Ads",
+   "title": "OpenAI Has No Plans For Prompt-Level ChatGPT Ads Reports",
    "link": "https://www.searchenginejournal.com/openai-isnt-planning-prompt-level-reports-for-chatgpt-ads/599126/",
    "date": "2026-11-26T04:15:54+00:00",
    "source": "Search Engine Journal",
    "stage": "grow"
   },
   {
-   "title": "Google Adds Pageburst & 11 Other Existing Bots To Its Crawler Docs",
+   "title": "Google Documents Pageburst, An Ads Renderer That Ignores Robots.txt",
    "link": "https://www.searchenginejournal.com/google-adds-pageburst-11-other-existing-bots-to-its-crawler-docs/599120/",
    "date": "2026-11-26T03:22:22+00:00",
    "source": "Search Engine Journal",
@@ -56,20 +56,6 @@
    "date": "2026-11-25T18:00:02+00:00",
    "source": "Search Engine Journal",
    "stage": "grow"
-  },
-  {
-   "title": "RSS Club: Preview Art-Directed Scrollytelling Article",
-   "link": "https://css-tricks.com/rss-club-preview-art-directed-scrollytelling-article/",
-   "date": "2026-11-25T15:32:42+00:00",
-   "source": "CSS-Tricks",
-   "stage": "launch"
-  },
-  {
-   "title": "Style Queries as Conditional Modifiers",
-   "link": "https://css-tricks.com/css-style-queries-as-conditional-modifiers/",
-   "date": "2026-11-25T14:06:34+00:00",
-   "source": "CSS-Tricks",
-   "stage": "launch"
   },
   {
    "title": "How to Set Up and Customize Light and Dark Mode in shadcn with Next.js",
@@ -114,20 +100,6 @@
    "stage": "launch"
   },
   {
-   "title": "Using Fallbacks for a Robust Front-End",
-   "link": "https://css-tricks.com/using-frontend-fallbacks/",
-   "date": "2026-11-23T14:21:44+00:00",
-   "source": "CSS-Tricks",
-   "stage": "launch"
-  },
-  {
-   "title": "Dev Material Archive",
-   "link": "https://css-tricks.com/dev-material-archive/",
-   "date": "2026-11-23T14:18:50+00:00",
-   "source": "CSS-Tricks",
-   "stage": "launch"
-  },
-  {
    "title": "Here's Why Data Breach Disclosure is so Hard: Lessons from Hundreds of Emails with Hacked Companies",
    "link": "https://www.troyhunt.com/heres-why-data-breach-disclosure-is-so-hard-lessons-from-hundreds-of-emails-with-hacked-companies/",
    "date": "2026-11-23T07:58:47+00:00",
@@ -156,24 +128,10 @@
    "stage": "launch"
   },
   {
-   "title": "Andy Clarke answers six questions about Standout Designs for the Web",
-   "link": "https://css-tricks.com/andy-clarke-standout-designs-for-the-web-interview/",
-   "date": "2026-11-20T15:03:47+00:00",
-   "source": "CSS-Tricks",
-   "stage": "launch"
-  },
-  {
    "title": "WordPress Credits Boost Translation",
    "link": "https://wordpress.org/news/2026/11/wp-credits-boost-translation/",
    "date": "2026-11-20T13:48:10+00:00",
    "source": "WordPress News",
-   "stage": "launch"
-  },
-  {
-   "title": "scroll-state()",
-   "link": "https://css-tricks.com/almanac/functions/s/scroll-state/",
-   "date": "2026-11-19T14:57:54+00:00",
-   "source": "CSS-Tricks",
    "stage": "launch"
   },
   {
