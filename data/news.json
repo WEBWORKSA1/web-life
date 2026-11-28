@@ -1,26 +1,26 @@
 {
- "updated": "2026-11-27T21:25:40.016038+00:00",
+ "updated": "2026-11-28T07:58:18.712785+00:00",
  "items": [
   {
-   "title": "Google’s 404 Guide Says 410s Generally Get Crawled Less Often",
+   "title": "Know What To Fix Before Scaling AI Agents For AEO In 2027",
+   "link": "https://www.searchenginejournal.com/know-what-to-fix-before-scaling-ai-agents-for-aeo-in-2027/598837/",
+   "date": "2026-11-27T22:41:34+00:00",
+   "source": "Search Engine Journal",
+   "stage": "grow"
+  },
+  {
+   "title": "Google Moves 404 Guidance To Search Central, Adds A 410 Crawl Note",
    "link": "https://www.searchenginejournal.com/google-404-guide-410-crawl-frequency/599287/",
    "date": "2026-11-27T20:26:24+00:00",
    "source": "Search Engine Journal",
    "stage": "grow"
   },
   {
-   "title": "Google Adds Shopping Campaigns To Promotion Mode Eligibility",
+   "title": "Google Says Promotion Mode Now Supports Shopping Campaigns",
    "link": "https://www.searchenginejournal.com/google-adds-shopping-campaigns-to-promotion-mode-eligibility/599279/",
    "date": "2026-11-27T19:57:15+00:00",
    "source": "Search Engine Journal",
    "stage": "grow"
-  },
-  {
-   "title": "Using light-dark() without getting caught out",
-   "link": "https://css-tricks.com/using-light-dark-without-getting-caught-out/",
-   "date": "2026-11-27T16:01:31+00:00",
-   "source": "CSS-Tricks",
-   "stage": "launch"
   },
   {
    "title": "Paid Search Has An AI Blind Spot – IAB Blueprint Says A Claim Is Not Credit",
@@ -44,13 +44,6 @@
    "stage": "grow"
   },
   {
-   "title": "The Missing Step In Prompt Tracking Was Written Down In 1995",
-   "link": "https://www.searchenginejournal.com/the-missing-step-in-prompt-tracking-was-written-down-in-1995/598461/",
-   "date": "2026-11-26T15:00:36+00:00",
-   "source": "Search Engine Journal",
-   "stage": "grow"
-  },
-  {
    "title": "How Wearables Can Turn Your Body Into a Dashboard",
    "link": "https://www.freecodecamp.org/news/how-wearables-can-turn-your-body-into-a-dashboard/",
    "date": "2026-11-25T20:11:21+00:00",
@@ -62,20 +55,6 @@
    "link": "https://www.freecodecamp.org/news/how-to-deploy-to-amazon-s3-using-gitlab-ci-cd-and-aws-oidc-without-aws-access-keys/",
    "date": "2026-11-25T19:49:25+00:00",
    "source": "freeCodeCamp",
-   "stage": "launch"
-  },
-  {
-   "title": "RSS Club: Preview Art-Directed Scrollytelling Article",
-   "link": "https://css-tricks.com/rss-club-preview-art-directed-scrollytelling-article/",
-   "date": "2026-11-25T15:32:42+00:00",
-   "source": "CSS-Tricks",
-   "stage": "launch"
-  },
-  {
-   "title": "Style Queries as Conditional Modifiers",
-   "link": "https://css-tricks.com/css-style-queries-as-conditional-modifiers/",
-   "date": "2026-11-25T14:06:34+00:00",
-   "source": "CSS-Tricks",
    "stage": "launch"
   },
   {
@@ -121,20 +100,6 @@
    "stage": "launch"
   },
   {
-   "title": "Using Fallbacks for a Robust Front-End",
-   "link": "https://css-tricks.com/using-frontend-fallbacks/",
-   "date": "2026-11-23T14:21:44+00:00",
-   "source": "CSS-Tricks",
-   "stage": "launch"
-  },
-  {
-   "title": "Dev Material Archive",
-   "link": "https://css-tricks.com/dev-material-archive/",
-   "date": "2026-11-23T14:18:50+00:00",
-   "source": "CSS-Tricks",
-   "stage": "launch"
-  },
-  {
    "title": "Here's Why Data Breach Disclosure is so Hard: Lessons from Hundreds of Emails with Hacked Companies",
    "link": "https://www.troyhunt.com/heres-why-data-breach-disclosure-is-so-hard-lessons-from-hundreds-of-emails-with-hacked-companies/",
    "date": "2026-11-23T07:58:47+00:00",
@@ -160,13 +125,6 @@
    "link": "https://wordpress.org/news/2026/11/global-partners-third-quarter-2026/",
    "date": "2026-11-20T17:17:24+00:00",
    "source": "WordPress News",
-   "stage": "launch"
-  },
-  {
-   "title": "Andy Clarke answers six questions about Standout Designs for the Web",
-   "link": "https://css-tricks.com/andy-clarke-standout-designs-for-the-web-interview/",
-   "date": "2026-11-20T15:03:47+00:00",
-   "source": "CSS-Tricks",
    "stage": "launch"
   },
   {

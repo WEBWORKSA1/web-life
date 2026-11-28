@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-27T21:25:40.016038+00:00",
- "news_items": 46,
+ "updated": "2026-11-28T07:58:18.712785+00:00",
+ "news_items": 40,
  "breach_items": 20,
  "sources_ok": [
   "Google Search Central",
   "Search Engine Journal",
   "Smashing Magazine",
-  "CSS-Tricks",
   "freeCodeCamp",
   "WordPress News",
   "Krebs on Security",
   "Troy Hunt"
  ],
  "sources_failed": [
-  "Search Engine Land: HTTPError"
+  "Search Engine Land: HTTPError",
+  "CSS-Tricks: ParseError"
  ]
 }
